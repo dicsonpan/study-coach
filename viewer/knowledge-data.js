@@ -1,0 +1,3024 @@
+// 知识图谱完整数据
+const KNOWLEDGE_DATA = {
+  "数学": {
+    "六年级": {
+      "subject": "数学",
+      "grade": "六年级",
+      "semester": "上册",
+      "last_updated": "2026-04-29",
+      "units": [
+        {
+          "id": "unit_1",
+          "name": "分数乘法",
+          "description": "分数乘法的意义、计算方法和应用",
+          "knowledge_points": [
+            {
+              "id": "kp_1_1",
+              "name": "分数乘整数",
+              "description": "分数乘整数的意义：求几个相同加数的和的简便运算",
+              "formula": "分数×整数 = (分子×整数)/分母",
+              "example": "3/4 × 3 = (3×3)/4 = 9/4",
+              "prerequisites": [
+                "分数的认识",
+                "整数乘法"
+              ],
+              "difficulty": 2,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "忘记约分",
+                "分子分母都乘整数"
+              ]
+            },
+            {
+              "id": "kp_1_2",
+              "name": "分数乘分数",
+              "description": "分数乘分数的意义：求一个数的几分之几是多少",
+              "formula": "分数×分数 = (分子×分子)/(分母×分母)",
+              "example": "2/3 × 3/4 = (2×3)/(3×4) = 6/12 = 1/2",
+              "prerequisites": [
+                "分数乘整数",
+                "约分"
+              ],
+              "difficulty": 3,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "约分不彻底",
+                "分子乘分母"
+              ]
+            },
+            {
+              "id": "kp_1_3",
+              "name": "分数混合运算",
+              "description": "分数乘法与加减法的混合运算",
+              "formula": "先乘除，后加减，有括号先算括号内",
+              "example": "1/2 + 1/3 × 3/4 = 1/2 + 1/4 = 3/4",
+              "prerequisites": [
+                "分数乘分数",
+                "分数加减法"
+              ],
+              "difficulty": 3,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "运算顺序错误",
+                "忘记通分"
+              ]
+            },
+            {
+              "id": "kp_1_4",
+              "name": "分数乘法应用题",
+              "description": "用分数乘法解决实际问题",
+              "key_words": [
+                "的",
+                "占",
+                "是"
+              ],
+              "example": "一本书有120页，小明读了全书的1/3，读了多少页？",
+              "prerequisites": [
+                "分数乘分数"
+              ],
+              "difficulty": 4,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "找错单位1",
+                "不会列式"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "unit_2",
+          "name": "位置与方向（二）",
+          "description": "用方向和距离确定位置",
+          "knowledge_points": [
+            {
+              "id": "kp_2_1",
+              "name": "确定物体位置",
+              "description": "用方向和距离两个条件确定物体的位置",
+              "key_concept": "方向 + 距离 = 位置",
+              "example": "学校在小明家北偏东30°方向500米处",
+              "prerequisites": [
+                "方向的认识",
+                "角度测量"
+              ],
+              "difficulty": 2,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "方向判断错误",
+                "角度测量不准"
+              ]
+            },
+            {
+              "id": "kp_2_2",
+              "name": "描述路线图",
+              "description": "用方向和距离描述行走的路线",
+              "key_concept": "起点→方向距离→终点",
+              "prerequisites": [
+                "确定物体位置"
+              ],
+              "difficulty": 3,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "方向描述不清",
+                "漏掉距离"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "unit_3",
+          "name": "分数除法",
+          "description": "分数除法的意义、计算方法和应用",
+          "knowledge_points": [
+            {
+              "id": "kp_3_1",
+              "name": "倒数的认识",
+              "description": "乘积是1的两个数互为倒数",
+              "formula": "a的倒数 = 1/a",
+              "example": "3/4的倒数是4/3，5的倒数是1/5",
+              "prerequisites": [
+                "分数乘法"
+              ],
+              "difficulty": 2,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "0有倒数",
+                "倒数概念混淆"
+              ]
+            },
+            {
+              "id": "kp_3_2",
+              "name": "分数除法计算",
+              "description": "除以一个数等于乘这个数的倒数",
+              "formula": "a÷b = a×(1/b)",
+              "example": "3/4 ÷ 2/5 = 3/4 × 5/2 = 15/8",
+              "prerequisites": [
+                "倒数的认识",
+                "分数乘法"
+              ],
+              "difficulty": 3,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "忘记变号",
+                "倒数求错"
+              ]
+            },
+            {
+              "id": "kp_3_3",
+              "name": "分数除法应用题",
+              "description": "已知一个数的几分之几是多少，求这个数",
+              "key_method": "方程法或除法",
+              "example": "一本书读了1/3，正好是40页，这本书共多少页？",
+              "prerequisites": [
+                "分数除法计算"
+              ],
+              "difficulty": 4,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "用乘法做",
+                "找错单位1"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "unit_4",
+          "name": "比",
+          "description": "比的意义、性质和应用",
+          "knowledge_points": [
+            {
+              "id": "kp_4_1",
+              "name": "比的意义",
+              "description": "两个数相除又叫做两个数的比",
+              "formula": "a:b = a÷b",
+              "example": "3:4表示3除以4",
+              "prerequisites": [
+                "除法"
+              ],
+              "difficulty": 2,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "比与比值混淆",
+                "前后项颠倒"
+              ]
+            },
+            {
+              "id": "kp_4_2",
+              "name": "比的基本性质",
+              "description": "比的前项和后项同时乘或除以相同的数（0除外），比值不变",
+              "formula": "a:b = (a×c):(b×c)",
+              "prerequisites": [
+                "比的意义",
+                "分数的基本性质"
+              ],
+              "difficulty": 2,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "忘记0除外",
+                "只乘一项"
+              ]
+            },
+            {
+              "id": "kp_4_3",
+              "name": "化简比",
+              "description": "把比化成最简整数比",
+              "method": "前项和后项同时除以最大公因数",
+              "example": "12:18 = 2:3",
+              "prerequisites": [
+                "比的基本性质",
+                "最大公因数"
+              ],
+              "difficulty": 3,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "化简不彻底",
+                "用小数表示"
+              ]
+            },
+            {
+              "id": "kp_4_4",
+              "name": "按比例分配",
+              "description": "把一个数量按一定的比进行分配",
+              "method": "总量÷份数和×各份数",
+              "example": "把120按2:3分配，分别是48和72",
+              "prerequisites": [
+                "比的意义",
+                "分数乘法"
+              ],
+              "difficulty": 4,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "份数计算错误",
+                "分配不完整"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "unit_5",
+          "name": "圆",
+          "description": "圆的认识、周长和面积",
+          "knowledge_points": [
+            {
+              "id": "kp_5_1",
+              "name": "圆的认识",
+              "description": "圆心、半径、直径的概念和关系",
+              "formula": "d = 2r",
+              "key_concept": "同圆内直径是半径的2倍",
+              "prerequisites": [
+                "图形的认识"
+              ],
+              "difficulty": 2,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "半径直径混淆",
+                "圆心位置判断错误"
+              ]
+            },
+            {
+              "id": "kp_5_2",
+              "name": "圆的周长",
+              "description": "圆周长的计算公式和应用",
+              "formula": "C = πd = 2πr",
+              "constant": "π ≈ 3.14",
+              "prerequisites": [
+                "圆的认识"
+              ],
+              "difficulty": 3,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "公式记错",
+                "π取值错误"
+              ]
+            },
+            {
+              "id": "kp_5_3",
+              "name": "圆的面积",
+              "description": "圆面积的计算公式和应用",
+              "formula": "S = πr²",
+              "derivation": "把圆分成若干等份，拼成近似长方形",
+              "prerequisites": [
+                "圆的认识",
+                "面积概念"
+              ],
+              "difficulty": 3,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "半径平方算错",
+                "周长面积公式混淆"
+              ]
+            },
+            {
+              "id": "kp_5_4",
+              "name": "圆环面积",
+              "description": "圆环面积的计算",
+              "formula": "S = π(R² - r²)",
+              "example": "外圆半径5cm，内圆半径3cm，面积 = π(25-9) = 16π",
+              "prerequisites": [
+                "圆的面积"
+              ],
+              "difficulty": 3,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "忘记减内圆",
+                "半径直径混淆"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "unit_6",
+          "name": "百分数（一）",
+          "description": "百分数的意义和应用",
+          "knowledge_points": [
+            {
+              "id": "kp_6_1",
+              "name": "百分数的意义",
+              "description": "表示一个数是另一个数的百分之几",
+              "key_concept": "百分数也叫百分率或百分比",
+              "example": "50%表示一半",
+              "prerequisites": [
+                "分数的认识"
+              ],
+              "difficulty": 2,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "百分数带单位",
+                "概念理解错误"
+              ]
+            },
+            {
+              "id": "kp_6_2",
+              "name": "百分数与小数互化",
+              "description": "百分数与小数的相互转换",
+              "method": "小数化百分数：小数点右移两位，加%；百分数化小数：去掉%，小数点左移两位",
+              "example": "0.25 = 25%，75% = 0.75",
+              "prerequisites": [
+                "百分数的意义",
+                "小数"
+              ],
+              "difficulty": 2,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "小数点移错方向",
+                "忘记加%"
+              ]
+            },
+            {
+              "id": "kp_6_3",
+              "name": "百分数与分数互化",
+              "description": "百分数与分数的相互转换",
+              "method": "分数化百分数：先化小数再化百分数；百分数化分数：先化分数再约分",
+              "example": "1/4 = 25%，60% = 3/5",
+              "prerequisites": [
+                "百分数与小数互化",
+                "分数"
+              ],
+              "difficulty": 3,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "约分不彻底",
+                "转换方法错误"
+              ]
+            },
+            {
+              "id": "kp_6_4",
+              "name": "百分数应用",
+              "description": "用百分数解决实际问题",
+              "key_words": [
+                "占",
+                "是",
+                "比...多/少"
+              ],
+              "example": "合格率 = 合格数÷总数×100%",
+              "prerequisites": [
+                "百分数互化",
+                "分数应用题"
+              ],
+              "difficulty": 4,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "找错单位1",
+                "计算错误"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "初一": {
+      "subject": "数学",
+      "grade": "初一",
+      "semester": "上册",
+      "last_updated": "2026-04-29",
+      "units": [
+        {
+          "id": "unit_1",
+          "name": "有理数",
+          "description": "有理数的概念、分类和表示",
+          "knowledge_points": [
+            {
+              "id": "kp_1_1",
+              "name": "正数和负数",
+              "description": "用正数和负数表示具有相反意义的量",
+              "key_concept": "正数大于0，负数小于0，0既不是正数也不是负数",
+              "example": "零上5℃记作+5℃，零下3℃记作-3℃",
+              "prerequisites": [
+                "小学数的认识"
+              ],
+              "difficulty": 2,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "0的分类判断错误",
+                "正负号理解错误"
+              ]
+            },
+            {
+              "id": "kp_1_2",
+              "name": "有理数的分类",
+              "description": "整数和分数统称为有理数",
+              "classification": "按定义分：整数（正整数、0、负整数）、分数（正分数、负分数）；按符号分：正有理数、0、负有理数",
+              "prerequisites": [
+                "正数和负数",
+                "整数",
+                "分数"
+              ],
+              "difficulty": 2,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "分类遗漏",
+                "0的位置判断错误"
+              ]
+            },
+            {
+              "id": "kp_1_3",
+              "name": "数轴",
+              "description": "规定了原点、正方向、单位长度的直线",
+              "three_elements": [
+                "原点",
+                "正方向",
+                "单位长度"
+              ],
+              "key_concept": "数轴上的点与有理数一一对应",
+              "prerequisites": [
+                "有理数的分类"
+              ],
+              "difficulty": 2,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "三要素遗漏",
+                "单位长度不一致"
+              ]
+            },
+            {
+              "id": "kp_1_4",
+              "name": "相反数",
+              "description": "只有符号不同的两个数互为相反数",
+              "formula": "a的相反数是-a，a+(-a)=0",
+              "example": "5的相反数是-5，-3的相反数是3",
+              "prerequisites": [
+                "数轴"
+              ],
+              "difficulty": 2,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "0的相反数判断错误",
+                "相反数与倒数混淆"
+              ]
+            },
+            {
+              "id": "kp_1_5",
+              "name": "绝对值",
+              "description": "一个数在数轴上对应的点到原点的距离",
+              "formula": "|a| = a (a≥0), |a| = -a (a<0)",
+              "key_concept": "绝对值是非负数",
+              "example": "|5| = 5, |-3| = 3, |0| = 0",
+              "prerequisites": [
+                "数轴"
+              ],
+              "difficulty": 3,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "绝对值可能是负数",
+                "计算错误"
+              ]
+            },
+            {
+              "id": "kp_1_6",
+              "name": "有理数的大小比较",
+              "description": "比较有理数大小的方法",
+              "rules": [
+                "正数>0>负数",
+                "两个负数比较，绝对值大的反而小"
+              ],
+              "example": "-3 < -1 < 0 < 2",
+              "prerequisites": [
+                "绝对值"
+              ],
+              "difficulty": 2,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "负数大小比较方向错误",
+                "忘记考虑符号"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "unit_2",
+          "name": "有理数的运算",
+          "description": "有理数的加减乘除和乘方运算",
+          "knowledge_points": [
+            {
+              "id": "kp_2_1",
+              "name": "有理数加法",
+              "description": "有理数加法的法则和运算律",
+              "rules": [
+                "同号相加，取相同符号，绝对值相加",
+                "异号相加，取绝对值大的符号，绝对值相减",
+                "互为相反数的两数相加得0"
+              ],
+              "example": "(-3)+(-5)=-8, (-3)+5=2",
+              "prerequisites": [
+                "有理数",
+                "绝对值"
+              ],
+              "difficulty": 3,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "符号判断错误",
+                "绝对值运算错误"
+              ]
+            },
+            {
+              "id": "kp_2_2",
+              "name": "有理数减法",
+              "description": "减去一个数等于加上这个数的相反数",
+              "formula": "a - b = a + (-b)",
+              "example": "5 - (-3) = 5 + 3 = 8",
+              "prerequisites": [
+                "有理数加法",
+                "相反数"
+              ],
+              "difficulty": 3,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "忘记变号",
+                "连续减法处理错误"
+              ]
+            },
+            {
+              "id": "kp_2_3",
+              "name": "有理数乘法",
+              "description": "有理数乘法的法则和运算律",
+              "rules": [
+                "两数相乘，同号得正，异号得负，绝对值相乘",
+                "任何数与0相乘都得0"
+              ],
+              "example": "(-3)×(-4)=12, (-3)×4=-12",
+              "prerequisites": [
+                "有理数加减法"
+              ],
+              "difficulty": 3,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "符号判断错误",
+                "多个负数相乘符号错误"
+              ]
+            },
+            {
+              "id": "kp_2_4",
+              "name": "有理数除法",
+              "description": "除以一个不等于0的数等于乘这个数的倒数",
+              "formula": "a ÷ b = a × (1/b)",
+              "key_concept": "0不能做除数",
+              "prerequisites": [
+                "有理数乘法",
+                "倒数"
+              ],
+              "difficulty": 3,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "忘记变号",
+                "倒数求错"
+              ]
+            },
+            {
+              "id": "kp_2_5",
+              "name": "有理数乘方",
+              "description": "求n个相同因数的积的运算",
+              "formula": "a^n = a×a×...×a (n个a)",
+              "key_concept": "负数的奇次幂是负数，偶次幂是正数",
+              "example": "(-2)^3 = -8, (-2)^4 = 16",
+              "prerequisites": [
+                "有理数乘法"
+              ],
+              "difficulty": 3,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "-a^n与(-a)^n混淆",
+                "符号判断错误"
+              ]
+            },
+            {
+              "id": "kp_2_6",
+              "name": "有理数混合运算",
+              "description": "有理数的混合运算顺序",
+              "order": "先乘方，再乘除，最后加减；有括号先算括号内",
+              "example": "-3^2 + 2×(-3) = -9 + (-6) = -15",
+              "prerequisites": [
+                "有理数加减乘除乘方"
+              ],
+              "difficulty": 4,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "运算顺序错误",
+                "符号处理错误"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "unit_3",
+          "name": "代数式",
+          "description": "用字母表示数，代数式的概念",
+          "knowledge_points": [
+            {
+              "id": "kp_3_1",
+              "name": "用字母表示数",
+              "description": "用字母表示数或数量关系",
+              "rules": [
+                "数字与字母相乘，数字在前，乘号省略",
+                "字母与字母相乘，乘号省略"
+              ],
+              "example": "买3支单价a元的笔，总价3a元",
+              "prerequisites": [
+                "有理数运算"
+              ],
+              "difficulty": 2,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "数字写在字母后面",
+                "乘号处理错误"
+              ]
+            },
+            {
+              "id": "kp_3_2",
+              "name": "单项式",
+              "description": "由数或字母的积组成的代数式",
+              "concepts": [
+                "系数：单项式中的数字因数",
+                "次数：所有字母指数的和"
+              ],
+              "example": "3x²y的系数是3，次数是3",
+              "prerequisites": [
+                "用字母表示数"
+              ],
+              "difficulty": 2,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "系数包含字母",
+                "次数计算错误"
+              ]
+            },
+            {
+              "id": "kp_3_3",
+              "name": "多项式",
+              "description": "几个单项式的和",
+              "concepts": [
+                "项：多项式中的每个单项式",
+                "次数：最高次项的次数"
+              ],
+              "example": "2x²+3x-1是二次三项式",
+              "prerequisites": [
+                "单项式"
+              ],
+              "difficulty": 2,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "项数判断错误",
+                "次数判断错误"
+              ]
+            },
+            {
+              "id": "kp_3_4",
+              "name": "同类项",
+              "description": "所含字母相同，且相同字母的指数也相同的项",
+              "key_concept": "常数项也是同类项",
+              "example": "3x²y与-5x²y是同类项",
+              "prerequisites": [
+                "单项式",
+                "多项式"
+              ],
+              "difficulty": 2,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "忽略字母指数",
+                "系数不同认为不是同类项"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "unit_4",
+          "name": "整式的加减",
+          "description": "合并同类项和去括号",
+          "knowledge_points": [
+            {
+              "id": "kp_4_1",
+              "name": "合并同类项",
+              "description": "把同类项的系数相加，字母和指数不变",
+              "formula": "ax + bx = (a+b)x",
+              "example": "3x² + 2x - 5x² - x = -2x² + x",
+              "prerequisites": [
+                "同类项"
+              ],
+              "difficulty": 3,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "系数相加错误",
+                "漏项"
+              ]
+            },
+            {
+              "id": "kp_4_2",
+              "name": "去括号",
+              "description": "去括号的法则",
+              "rules": [
+                "括号前是+，去掉括号和+，各项符号不变",
+                "括号前是-，去掉括号和-，各项符号改变"
+              ],
+              "example": "a + (b - c) = a + b - c, a - (b - c) = a - b + c",
+              "prerequisites": [
+                "合并同类项"
+              ],
+              "difficulty": 3,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "括号前是-时忘记变号",
+                "漏项"
+              ]
+            },
+            {
+              "id": "kp_4_3",
+              "name": "整式加减",
+              "description": "整式加减的步骤",
+              "steps": [
+                "去括号",
+                "合并同类项"
+              ],
+              "example": "(2x + 3) - (x - 1) = 2x + 3 - x + 1 = x + 4",
+              "prerequisites": [
+                "去括号",
+                "合并同类项"
+              ],
+              "difficulty": 3,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "去括号错误",
+                "合并同类项错误"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "unit_5",
+          "name": "一元一次方程",
+          "description": "一元一次方程的概念、解法和应用",
+          "knowledge_points": [
+            {
+              "id": "kp_5_1",
+              "name": "一元一次方程的概念",
+              "description": "只含一个未知数，未知数的次数是1，等号两边都是整式",
+              "key_concept": "一元一次方程的标准形式：ax + b = 0 (a≠0)",
+              "example": "2x + 3 = 7 是一元一次方程",
+              "prerequisites": [
+                "整式"
+              ],
+              "difficulty": 2,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "次数判断错误",
+                "忽略a≠0的条件"
+              ]
+            },
+            {
+              "id": "kp_5_2",
+              "name": "等式的性质",
+              "description": "等式的基本性质",
+              "properties": [
+                "等式两边加（或减）同一个数，结果仍相等",
+                "等式两边乘同一个数，或除以同一个不为0的数，结果仍相等"
+              ],
+              "prerequisites": [
+                "等式的概念"
+              ],
+              "difficulty": 2,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "除以0",
+                "只对一边操作"
+              ]
+            },
+            {
+              "id": "kp_5_3",
+              "name": "解一元一次方程",
+              "description": "解一元一次方程的步骤",
+              "steps": [
+                "去分母",
+                "去括号",
+                "移项",
+                "合并同类项",
+                "系数化为1"
+              ],
+              "example": "解方程 2(x-1) = 4：去括号得2x-2=4，移项得2x=6，x=3",
+              "prerequisites": [
+                "等式的性质",
+                "整式加减"
+              ],
+              "difficulty": 4,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "去分母漏乘",
+                "移项忘记变号",
+                "去括号变号错误"
+              ]
+            },
+            {
+              "id": "kp_5_4",
+              "name": "一元一次方程的应用",
+              "description": "用一元一次方程解决实际问题",
+              "steps": [
+                "审题",
+                "设未知数",
+                "找等量关系",
+                "列方程",
+                "解方程",
+                "检验作答"
+              ],
+              "types": [
+                "行程问题",
+                "工程问题",
+                "利润问题",
+                "年龄问题"
+              ],
+              "prerequisites": [
+                "解一元一次方程"
+              ],
+              "difficulty": 5,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "找错等量关系",
+                "设未知数不当",
+                "单位不统一"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "unit_6",
+          "name": "几何图形初步",
+          "description": "几何图形的基本概念",
+          "knowledge_points": [
+            {
+              "id": "kp_6_1",
+              "name": "立体图形与平面图形",
+              "description": "认识立体图形和平面图形",
+              "examples": [
+                "立体图形：长方体、正方体、圆柱、圆锥、球",
+                "平面图形：三角形、四边形、圆"
+              ],
+              "prerequisites": [
+                "小学图形认识"
+              ],
+              "difficulty": 2,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "立体平面混淆",
+                "图形名称记错"
+              ]
+            },
+            {
+              "id": "kp_6_2",
+              "name": "点、线、面、体",
+              "description": "几何图形的基本元素",
+              "relationships": [
+                "点动成线",
+                "线动成面",
+                "面动成体"
+              ],
+              "prerequisites": [
+                "立体图形与平面图形"
+              ],
+              "difficulty": 2,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "概念混淆",
+                "关系理解错误"
+              ]
+            },
+            {
+              "id": "kp_6_3",
+              "name": "直线、射线、线段",
+              "description": "直线、射线、线段的概念和性质",
+              "comparison": [
+                "直线：向两方无限延伸，无端点",
+                "射线：向一方无限延伸，有一个端点",
+                "线段：有两个端点"
+              ],
+              "formula": "两点之间，线段最短",
+              "prerequisites": [
+                "点、线、面、体"
+              ],
+              "difficulty": 2,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "直线射线线段混淆",
+                "延长线方向错误"
+              ]
+            },
+            {
+              "id": "kp_6_4",
+              "name": "角",
+              "description": "角的概念、表示和分类",
+              "concepts": [
+                "角的定义：有公共端点的两条射线组成的图形",
+                "角的单位：度、分、秒",
+                "1°=60', 1'=60\""
+              ],
+              "types": [
+                "锐角（<90°）",
+                "直角（=90°）",
+                "钝角（>90°且<180°）",
+                "平角（=180°）",
+                "周角（=360°）"
+              ],
+              "prerequisites": [
+                "直线、射线、线段"
+              ],
+              "difficulty": 3,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "度分秒换算错误",
+                "角的大小比较错误"
+              ]
+            },
+            {
+              "id": "kp_6_5",
+              "name": "角的比较与运算",
+              "description": "角的比较、和差倍分",
+              "methods": [
+                "叠合法",
+                "度量法"
+              ],
+              "formula": "角的平分线：从一个角的顶点出发，把这个角分成两个相等的角的射线",
+              "prerequisites": [
+                "角"
+              ],
+              "difficulty": 3,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "角平分线概念错误",
+                "角度计算错误"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "语文": {
+    "六年级": {
+      "subject": "语文",
+      "grade": "六年级",
+      "semester": "上册",
+      "last_updated": "2026-04-29",
+      "units": [
+        {
+          "id": "unit_1",
+          "name": "字词积累",
+          "description": "六年级重点字词的音形义",
+          "knowledge_points": [
+            {
+              "id": "kp_1_1",
+              "name": "多音字辨析",
+              "description": "根据语境判断多音字的正确读音",
+              "example": "差：差别(chā)、差劲(chà)、出差(chāi)、参差(cī)",
+              "prerequisites": [
+                "拼音基础",
+                "字义理解"
+              ],
+              "difficulty": 2,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "读音判断错误",
+                "不理解词义导致误读"
+              ]
+            },
+            {
+              "id": "kp_1_2",
+              "name": "形近字辨析",
+              "description": "区分字形相近但意义不同的字",
+              "example": "燥(干燥) vs 躁(急躁) vs 噪(噪音)",
+              "prerequisites": [
+                "汉字结构",
+                "偏旁部首"
+              ],
+              "difficulty": 2,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "字形混淆",
+                "偏旁记错"
+              ]
+            },
+            {
+              "id": "kp_1_3",
+              "name": "成语积累",
+              "description": "理解并运用常见成语",
+              "key_points": [
+                "成语含义",
+                "使用语境",
+                "感情色彩"
+              ],
+              "example": "画龙点睛、栩栩如生、惟妙惟肖",
+              "prerequisites": [
+                "词语理解",
+                "语境分析"
+              ],
+              "difficulty": 3,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "望文生义",
+                "感情色彩判断错误"
+              ]
+            },
+            {
+              "id": "kp_1_4",
+              "name": "词语搭配",
+              "description": "掌握词语的正确搭配方式",
+              "example": "改进-方法、改善-生活、改变-面貌",
+              "prerequisites": [
+                "词义理解"
+              ],
+              "difficulty": 2,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "搭配不当",
+                "近义词混淆"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "unit_2",
+          "name": "古诗词",
+          "description": "六年级必背古诗词的理解与鉴赏",
+          "knowledge_points": [
+            {
+              "id": "kp_2_1",
+              "name": "古诗背诵",
+              "description": "准确背诵六年级必背古诗",
+              "key_poems": [
+                "《七律·长征》",
+                "《春日》",
+                "《浪淘沙》",
+                "《江南春》"
+              ],
+              "prerequisites": [
+                "朗读能力"
+              ],
+              "difficulty": 2,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "背诵不熟练",
+                "字词错误"
+              ]
+            },
+            {
+              "id": "kp_2_2",
+              "name": "诗意理解",
+              "description": "理解古诗的字面意思和深层含义",
+              "method": "逐句翻译 + 意境体会",
+              "example": "《七律·长征》歌颂红军长征的英雄气概和革命乐观主义精神",
+              "prerequisites": [
+                "古诗背诵",
+                "文言文基础"
+              ],
+              "difficulty": 3,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "理解偏差",
+                "关键词解释错误"
+              ]
+            },
+            {
+              "id": "kp_2_3",
+              "name": "修辞手法",
+              "description": "识别古诗中的修辞手法",
+              "types": [
+                "比喻",
+                "拟人",
+                "夸张",
+                "对偶"
+              ],
+              "example": "飞流直下三千尺（夸张）",
+              "prerequisites": [
+                "诗意理解"
+              ],
+              "difficulty": 3,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "修辞类型判断错误",
+                "与表现手法混淆"
+              ]
+            },
+            {
+              "id": "kp_2_4",
+              "name": "情感把握",
+              "description": "体会诗人表达的思想感情",
+              "common_emotions": [
+                "思乡",
+                "爱国",
+                "友情",
+                "自然之美"
+              ],
+              "prerequisites": [
+                "诗意理解"
+              ],
+              "difficulty": 4,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "情感理解偏差",
+                "过度解读"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "unit_3",
+          "name": "文言文入门",
+          "description": "文言文基础知识与阅读",
+          "knowledge_points": [
+            {
+              "id": "kp_3_1",
+              "name": "文言实词",
+              "description": "掌握常见文言实词的含义",
+              "key_words": [
+                "之",
+                "其",
+                "者",
+                "也",
+                "矣"
+              ],
+              "example": "之：助词'的'、代词、动词'去'",
+              "prerequisites": [
+                "现代文阅读"
+              ],
+              "difficulty": 3,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "一词多义混淆",
+                "古今异义不理解"
+              ]
+            },
+            {
+              "id": "kp_3_2",
+              "name": "文言虚词",
+              "description": "理解文言虚词的用法",
+              "key_words": [
+                "而",
+                "以",
+                "于",
+                "乃",
+                "且"
+              ],
+              "example": "而：表并列、表转折、表承接",
+              "prerequisites": [
+                "文言实词"
+              ],
+              "difficulty": 4,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "虚词用法判断错误",
+                "与实词混淆"
+              ]
+            },
+            {
+              "id": "kp_3_3",
+              "name": "文言句式",
+              "description": "识别常见文言句式",
+              "types": [
+                "判断句",
+                "省略句",
+                "倒装句",
+                "被动句"
+              ],
+              "example": "……者，……也（判断句）",
+              "prerequisites": [
+                "文言实词",
+                "文言虚词"
+              ],
+              "difficulty": 4,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "句式判断错误",
+                "翻译不准确"
+              ]
+            },
+            {
+              "id": "kp_3_4",
+              "name": "文言文翻译",
+              "description": "准确翻译文言文",
+              "method": "字字落实、直译为主、意译为辅",
+              "prerequisites": [
+                "文言实词",
+                "文言虚词",
+                "文言句式"
+              ],
+              "difficulty": 4,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "漏译",
+                "意译过度",
+                "关键词翻译错误"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "unit_4",
+          "name": "现代文阅读",
+          "description": "现代文阅读理解方法与技巧",
+          "knowledge_points": [
+            {
+              "id": "kp_4_1",
+              "name": "概括主要内容",
+              "description": "准确概括文章的主要内容",
+              "method": "找中心句、合并段落大意、六要素法",
+              "prerequisites": [
+                "阅读能力"
+              ],
+              "difficulty": 3,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "概括不全面",
+                "偏离主题"
+              ]
+            },
+            {
+              "id": "kp_4_2",
+              "name": "理解重点词句",
+              "description": "理解文中关键词句的含义和作用",
+              "method": "结合语境、分析修辞、体会情感",
+              "example": "分析加点词的表达效果",
+              "prerequisites": [
+                "概括主要内容"
+              ],
+              "difficulty": 3,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "脱离语境",
+                "理解片面"
+              ]
+            },
+            {
+              "id": "kp_4_3",
+              "name": "分析人物形象",
+              "description": "分析文中人物的性格特点",
+              "method": "从语言、动作、心理、神态描写入手",
+              "prerequisites": [
+                "理解重点词句"
+              ],
+              "difficulty": 3,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "分析不具体",
+                "缺少文本依据"
+              ]
+            },
+            {
+              "id": "kp_4_4",
+              "name": "体会文章情感",
+              "description": "把握作者的思想感情",
+              "method": "抓关键词、分析写作手法、联系背景",
+              "prerequisites": [
+                "概括主要内容",
+                "理解重点词句"
+              ],
+              "difficulty": 4,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "情感判断错误",
+                "过度解读"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "unit_5",
+          "name": "写作",
+          "description": "六年级写作技巧与训练",
+          "knowledge_points": [
+            {
+              "id": "kp_5_1",
+              "name": "记叙文写作",
+              "description": "写人记事的基本方法",
+              "key_points": [
+                "六要素完整",
+                "详略得当",
+                "细节描写"
+              ],
+              "prerequisites": [
+                "阅读理解"
+              ],
+              "difficulty": 3,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "流水账",
+                "缺少细节",
+                "主题不明确"
+              ]
+            },
+            {
+              "id": "kp_5_2",
+              "name": "描写方法",
+              "description": "运用多种描写方法使文章生动",
+              "types": [
+                "外貌描写",
+                "语言描写",
+                "动作描写",
+                "心理描写",
+                "环境描写"
+              ],
+              "prerequisites": [
+                "记叙文写作"
+              ],
+              "difficulty": 3,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "描写单一",
+                "描写不具体"
+              ]
+            },
+            {
+              "id": "kp_5_3",
+              "name": "开头结尾",
+              "description": "写好文章的开头和结尾",
+              "methods": [
+                "开门见山",
+                "设置悬念",
+                "首尾呼应",
+                "点明中心"
+              ],
+              "prerequisites": [
+                "记叙文写作"
+              ],
+              "difficulty": 3,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "开头冗长",
+                "结尾仓促",
+                "首尾不呼应"
+              ]
+            },
+            {
+              "id": "kp_5_4",
+              "name": "修改润色",
+              "description": "修改文章使其更加完善",
+              "method": "检查错别字、修改病句、润色语言",
+              "prerequisites": [
+                "记叙文写作"
+              ],
+              "difficulty": 2,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "不检查",
+                "修改不彻底"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "初一": {
+      "subject": "语文",
+      "grade": "初一",
+      "semester": "上册",
+      "last_updated": "2026-04-29",
+      "units": [
+        {
+          "id": "unit_1",
+          "name": "文言文阅读",
+          "description": "初一重点文言文的理解与鉴赏",
+          "knowledge_points": [
+            {
+              "id": "kp_1_1",
+              "name": "《论语》十二章",
+              "description": "理解《论语》中的学习态度和方法",
+              "key_content": [
+                "学而时习之",
+                "温故而知新",
+                "学而不思则罔"
+              ],
+              "key_words": [
+                "时：按时",
+                "故：旧知识",
+                "罔：迷惑"
+              ],
+              "prerequisites": [
+                "文言实词",
+                "文言虚词"
+              ],
+              "difficulty": 3,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "关键词解释错误",
+                "句意理解偏差"
+              ]
+            },
+            {
+              "id": "kp_1_2",
+              "name": "《世说新语》二则",
+              "description": "理解《咏雪》《陈太丘与友期行》",
+              "key_content": [
+                "谢太傅寒雪日内集",
+                "元方时年七岁"
+              ],
+              "key_words": [
+                "内集：家庭聚会",
+                "俄而：不久",
+                "去：离开"
+              ],
+              "prerequisites": [
+                "文言实词"
+              ],
+              "difficulty": 3,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "古今异义不理解",
+                "人物关系混淆"
+              ]
+            },
+            {
+              "id": "kp_1_3",
+              "name": "《诫子书》",
+              "description": "理解诸葛亮的家书内容",
+              "key_content": [
+                "静以修身，俭以养德",
+                "非淡泊无以明志"
+              ],
+              "key_words": [
+                "静：宁静",
+                "淡泊：不追求名利"
+              ],
+              "prerequisites": [
+                "文言实词",
+                "文言句式"
+              ],
+              "difficulty": 3,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "关键词解释错误",
+                "主旨理解偏差"
+              ]
+            },
+            {
+              "id": "kp_1_4",
+              "name": "《狼》",
+              "description": "理解蒲松龄《狼》的故事与寓意",
+              "key_content": [
+                "一狼得骨止",
+                "狼亦黠矣"
+              ],
+              "key_words": [
+                "黠：狡猾",
+                "顷刻：一会儿",
+                "暴：突然"
+              ],
+              "prerequisites": [
+                "文言实词",
+                "叙事理解"
+              ],
+              "difficulty": 4,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "情节理解错误",
+                "寓意把握不准"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "unit_2",
+          "name": "古诗词鉴赏",
+          "description": "初一必背古诗词的理解与鉴赏",
+          "knowledge_points": [
+            {
+              "id": "kp_2_1",
+              "name": "《观沧海》",
+              "description": "理解曹操的壮志豪情",
+              "key_content": [
+                "日月之行，若出其中"
+              ],
+              "technique": "借景抒情",
+              "prerequisites": [
+                "古诗基础"
+              ],
+              "difficulty": 3,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "关键词解释错误",
+                "情感把握不准"
+              ]
+            },
+            {
+              "id": "kp_2_2",
+              "name": "《闻王昌龄左迁龙标遥有此寄》",
+              "description": "理解李白的友情与关切",
+              "key_content": [
+                "我寄愁心与明月，随君直到夜郎西"
+              ],
+              "technique": "拟人、借景抒情",
+              "prerequisites": [
+                "古诗基础"
+              ],
+              "difficulty": 3,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "情感理解偏差",
+                "修辞手法判断错误"
+              ]
+            },
+            {
+              "id": "kp_2_3",
+              "name": "《次北固山下》",
+              "description": "理解王湾的思乡之情",
+              "key_content": [
+                "海日生残夜，江春入旧年"
+              ],
+              "technique": "对偶、借景抒情",
+              "prerequisites": [
+                "古诗基础"
+              ],
+              "difficulty": 3,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "名句理解错误",
+                "情感把握不准"
+              ]
+            },
+            {
+              "id": "kp_2_4",
+              "name": "《天净沙·秋思》",
+              "description": "理解马致远的羁旅之思",
+              "key_content": [
+                "夕阳西下，断肠人在天涯"
+              ],
+              "technique": "意象叠加、借景抒情",
+              "prerequisites": [
+                "古诗基础"
+              ],
+              "difficulty": 3,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "意象理解错误",
+                "情感把握不准"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "unit_3",
+          "name": "现代文阅读",
+          "description": "现代文阅读理解方法与技巧",
+          "knowledge_points": [
+            {
+              "id": "kp_3_1",
+              "name": "记叙文阅读",
+              "description": "理解记叙文的要素和主题",
+              "key_points": [
+                "六要素",
+                "叙述顺序",
+                "人物形象",
+                "主题思想"
+              ],
+              "prerequisites": [
+                "阅读能力"
+              ],
+              "difficulty": 3,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "要素遗漏",
+                "主题理解偏差"
+              ]
+            },
+            {
+              "id": "kp_3_2",
+              "name": "散文阅读",
+              "description": "理解散文的内容和情感",
+              "key_points": [
+                "形散神聚",
+                "线索",
+                "情感",
+                "语言特色"
+              ],
+              "prerequisites": [
+                "记叙文阅读"
+              ],
+              "difficulty": 4,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "线索找错",
+                "情感把握不准"
+              ]
+            },
+            {
+              "id": "kp_3_3",
+              "name": "说明文阅读",
+              "description": "理解说明文的内容和方法",
+              "key_points": [
+                "说明对象",
+                "说明顺序",
+                "说明方法",
+                "语言特点"
+              ],
+              "methods": [
+                "举例子",
+                "列数字",
+                "作比较",
+                "打比方"
+              ],
+              "prerequisites": [
+                "阅读能力"
+              ],
+              "difficulty": 3,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "说明方法判断错误",
+                "语言特点分析不准"
+              ]
+            },
+            {
+              "id": "kp_3_4",
+              "name": "议论文阅读",
+              "description": "理解议论文的论点和论据",
+              "key_points": [
+                "论点",
+                "论据",
+                "论证方法",
+                "论证思路"
+              ],
+              "methods": [
+                "举例论证",
+                "道理论证",
+                "对比论证",
+                "比喻论证"
+              ],
+              "prerequisites": [
+                "阅读能力"
+              ],
+              "difficulty": 4,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "论点找错",
+                "论证方法判断错误"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "unit_4",
+          "name": "写作",
+          "description": "初一写作技巧与训练",
+          "knowledge_points": [
+            {
+              "id": "kp_4_1",
+              "name": "记叙文写作",
+              "description": "写人记事的进阶技巧",
+              "key_points": [
+                "选材典型",
+                "细节生动",
+                "情感真挚",
+                "主题深刻"
+              ],
+              "prerequisites": [
+                "六年级写作基础"
+              ],
+              "difficulty": 3,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "选材平淡",
+                "细节不具体",
+                "主题不深刻"
+              ]
+            },
+            {
+              "id": "kp_4_2",
+              "name": "写景状物",
+              "description": "描写景物和事物的方法",
+              "key_points": [
+                "观察角度",
+                "描写顺序",
+                "修辞运用",
+                "情景交融"
+              ],
+              "prerequisites": [
+                "记叙文写作"
+              ],
+              "difficulty": 3,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "描写无序",
+                "缺少情感"
+              ]
+            },
+            {
+              "id": "kp_4_3",
+              "name": "议论性文章",
+              "description": "表达观点和看法",
+              "key_points": [
+                "观点明确",
+                "论据充分",
+                "论证有力"
+              ],
+              "prerequisites": [
+                "议论文阅读"
+              ],
+              "difficulty": 4,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "观点不明确",
+                "论据不充分"
+              ]
+            },
+            {
+              "id": "kp_4_4",
+              "name": "应用文写作",
+              "description": "写通知、请假条、书信等",
+              "types": [
+                "通知",
+                "请假条",
+                "书信",
+                "读后感"
+              ],
+              "prerequisites": [
+                "写作基础"
+              ],
+              "difficulty": 2,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "格式错误",
+                "内容不完整"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "unit_5",
+          "name": "基础知识",
+          "description": "语文基础知识的巩固与提升",
+          "knowledge_points": [
+            {
+              "id": "kp_5_1",
+              "name": "字音字形",
+              "description": "准确掌握常用字的读音和写法",
+              "key_points": [
+                "多音字",
+                "形近字",
+                "易错字"
+              ],
+              "prerequisites": [
+                "六年级字词基础"
+              ],
+              "difficulty": 2,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "读音错误",
+                "字形错误"
+              ]
+            },
+            {
+              "id": "kp_5_2",
+              "name": "成语运用",
+              "description": "正确理解和使用成语",
+              "key_points": [
+                "成语含义",
+                "使用语境",
+                "感情色彩",
+                "适用对象"
+              ],
+              "prerequisites": [
+                "词汇积累"
+              ],
+              "difficulty": 3,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "望文生义",
+                "对象误用",
+                "褒贬误用"
+              ]
+            },
+            {
+              "id": "kp_5_3",
+              "name": "病句辨析",
+              "description": "识别和修改常见病句",
+              "types": [
+                "成分残缺",
+                "搭配不当",
+                "语序不当",
+                "前后矛盾",
+                "重复啰嗦"
+              ],
+              "prerequisites": [
+                "语法基础"
+              ],
+              "difficulty": 3,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "病句类型判断错误",
+                "修改不当"
+              ]
+            },
+            {
+              "id": "kp_5_4",
+              "name": "修辞手法",
+              "description": "识别和运用常见修辞手法",
+              "types": [
+                "比喻",
+                "拟人",
+                "排比",
+                "夸张",
+                "对偶",
+                "反问",
+                "设问"
+              ],
+              "prerequisites": [
+                "语言基础"
+              ],
+              "difficulty": 2,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "修辞类型判断错误",
+                "与表现手法混淆"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "英语": {
+    "六年级": {
+      "subject": "英语",
+      "grade": "六年级",
+      "semester": "上册",
+      "last_updated": "2026-04-29",
+      "units": [
+        {
+          "id": "unit_1",
+          "name": "时态",
+          "description": "六年级重点时态的掌握与运用",
+          "knowledge_points": [
+            {
+              "id": "kp_1_1",
+              "name": "一般现在时",
+              "description": "表示经常性或习惯性的动作或状态",
+              "formula": "主语 + 动词原形/第三人称单数",
+              "example": "He plays basketball every day.",
+              "keywords": [
+                "always",
+                "usually",
+                "often",
+                "sometimes",
+                "never",
+                "every day"
+              ],
+              "prerequisites": [
+                "动词原形",
+                "第三人称单数"
+              ],
+              "difficulty": 2,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "忘记三单变化",
+                "be动词用法错误"
+              ]
+            },
+            {
+              "id": "kp_1_2",
+              "name": "一般过去时",
+              "description": "表示过去某个时间发生的动作或状态",
+              "formula": "主语 + 动词过去式",
+              "example": "I visited my grandmother yesterday.",
+              "keywords": [
+                "yesterday",
+                "last week",
+                "ago",
+                "in 2020"
+              ],
+              "prerequisites": [
+                "动词过去式"
+              ],
+              "difficulty": 3,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "不规则动词变化错误",
+                "时间状语使用不当"
+              ]
+            },
+            {
+              "id": "kp_1_3",
+              "name": "一般将来时",
+              "description": "表示将来某个时间要发生的动作或状态",
+              "formula": "主语 + will/shall + 动词原形 或 主语 + be going to + 动词原形",
+              "example": "I will visit Beijing next week. / I am going to buy a book.",
+              "keywords": [
+                "tomorrow",
+                "next week",
+                "in the future",
+                "soon"
+              ],
+              "prerequisites": [
+                "动词原形"
+              ],
+              "difficulty": 3,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "will后加to",
+                "be going to结构错误"
+              ]
+            },
+            {
+              "id": "kp_1_4",
+              "name": "现在进行时",
+              "description": "表示正在进行的动作",
+              "formula": "主语 + be + 动词-ing",
+              "example": "She is reading a book now.",
+              "keywords": [
+                "now",
+                "look",
+                "listen",
+                "at this moment"
+              ],
+              "prerequisites": [
+                "be动词",
+                "现在分词"
+              ],
+              "difficulty": 2,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "be动词遗漏",
+                "动词ing形式错误"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "unit_2",
+          "name": "词类",
+          "description": "英语主要词类的用法",
+          "knowledge_points": [
+            {
+              "id": "kp_2_1",
+              "name": "名词",
+              "description": "名词的分类、数和所有格",
+              "key_points": [
+                "可数与不可数",
+                "单复数变化",
+                "所有格"
+              ],
+              "example": "book-books, child-children, Tom's book",
+              "prerequisites": [
+                "词汇基础"
+              ],
+              "difficulty": 2,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "复数变化错误",
+                "不可数名词误用"
+              ]
+            },
+            {
+              "id": "kp_2_2",
+              "name": "代词",
+              "description": "人称代词、物主代词、指示代词等",
+              "types": [
+                "人称代词(I, me, my)",
+                "物主代词(my, mine)",
+                "指示代词(this, that)"
+              ],
+              "example": "This is my book. The book is mine.",
+              "prerequisites": [
+                "名词"
+              ],
+              "difficulty": 2,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "主格宾格混淆",
+                "形容词性与名词性物主代词混淆"
+              ]
+            },
+            {
+              "id": "kp_2_3",
+              "name": "动词",
+              "description": "动词的分类和基本形式",
+              "types": [
+                "实义动词",
+                "be动词",
+                "助动词",
+                "情态动词"
+              ],
+              "forms": [
+                "原形",
+                "第三人称单数",
+                "过去式",
+                "现在分词",
+                "过去分词"
+              ],
+              "prerequisites": [
+                "词汇基础"
+              ],
+              "difficulty": 3,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "动词形式变化错误",
+                "be动词与实义动词混用"
+              ]
+            },
+            {
+              "id": "kp_2_4",
+              "name": "形容词与副词",
+              "description": "形容词和副词的用法与比较级",
+              "key_points": [
+                "修饰名词vs修饰动词",
+                "比较级和最高级"
+              ],
+              "example": "good-better-best, fast-faster-fastest",
+              "prerequisites": [
+                "词汇基础"
+              ],
+              "difficulty": 3,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "形容词副词混用",
+                "比较级变化错误"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "unit_3",
+          "name": "句型结构",
+          "description": "英语基本句型",
+          "knowledge_points": [
+            {
+              "id": "kp_3_1",
+              "name": "陈述句",
+              "description": "肯定句和否定句",
+              "structure": "主语 + 谓语 + 其他",
+              "example": "I like apples. I don't like apples.",
+              "prerequisites": [
+                "词类基础"
+              ],
+              "difficulty": 2,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "否定句结构错误",
+                "主谓不一致"
+              ]
+            },
+            {
+              "id": "kp_3_2",
+              "name": "疑问句",
+              "description": "一般疑问句和特殊疑问句",
+              "types": [
+                "一般疑问句(Do/Does/Is/Are开头)",
+                "特殊疑问句(疑问词开头)"
+              ],
+              "example": "Do you like apples? What do you like?",
+              "prerequisites": [
+                "陈述句"
+              ],
+              "difficulty": 3,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "疑问词选择错误",
+                "语序错误"
+              ]
+            },
+            {
+              "id": "kp_3_3",
+              "name": "祈使句",
+              "description": "表示请求、命令、建议等",
+              "structure": "动词原形开头，否定加Don't",
+              "example": "Open the door. Don't open the door.",
+              "prerequisites": [
+                "动词原形"
+              ],
+              "difficulty": 2,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "主语错误",
+                "否定形式错误"
+              ]
+            },
+            {
+              "id": "kp_3_4",
+              "name": "There be句型",
+              "description": "表示某处存在某物",
+              "formula": "There is/are + 名词 + 地点",
+              "example": "There is a book on the desk. There are some books on the desk.",
+              "prerequisites": [
+                "be动词",
+                "名词单复数"
+              ],
+              "difficulty": 2,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "is/are选择错误",
+                "与have混淆"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "unit_4",
+          "name": "阅读理解",
+          "description": "英语阅读理解技巧",
+          "knowledge_points": [
+            {
+              "id": "kp_4_1",
+              "name": "细节理解",
+              "description": "从文中找出具体信息",
+              "method": "定位关键词、回原文查找",
+              "prerequisites": [
+                "词汇量",
+                "句型结构"
+              ],
+              "difficulty": 2,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "定位错误",
+                "理解偏差"
+              ]
+            },
+            {
+              "id": "kp_4_2",
+              "name": "主旨大意",
+              "description": "理解文章的中心思想",
+              "method": "找主题句、归纳段落大意",
+              "prerequisites": [
+                "细节理解"
+              ],
+              "difficulty": 3,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "以偏概全",
+                "主题句找错"
+              ]
+            },
+            {
+              "id": "kp_4_3",
+              "name": "推理判断",
+              "description": "根据文章内容进行合理推断",
+              "method": "基于文本、合理推断",
+              "prerequisites": [
+                "细节理解",
+                "主旨大意"
+              ],
+              "difficulty": 4,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "过度推断",
+                "脱离文本"
+              ]
+            },
+            {
+              "id": "kp_4_4",
+              "name": "词义猜测",
+              "description": "根据上下文猜测生词含义",
+              "method": "利用定义、举例、对比、构词法",
+              "prerequisites": [
+                "词汇基础"
+              ],
+              "difficulty": 3,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "猜测无依据",
+                "理解偏差"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "unit_5",
+          "name": "写作",
+          "description": "英语写作基础",
+          "knowledge_points": [
+            {
+              "id": "kp_5_1",
+              "name": "句子写作",
+              "description": "写出语法正确的完整句子",
+              "key_points": [
+                "主谓一致",
+                "时态正确",
+                "词序正确"
+              ],
+              "prerequisites": [
+                "句型结构",
+                "时态"
+              ],
+              "difficulty": 2,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "句子不完整",
+                "语法错误"
+              ]
+            },
+            {
+              "id": "kp_5_2",
+              "name": "段落写作",
+              "description": "组织连贯的段落",
+              "structure": "主题句 + 支持句 + 结论句",
+              "prerequisites": [
+                "句子写作"
+              ],
+              "difficulty": 3,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "缺少主题句",
+                "逻辑不清"
+              ]
+            },
+            {
+              "id": "kp_5_3",
+              "name": "应用文写作",
+              "description": "写便条、书信等应用文",
+              "types": [
+                "便条",
+                "邀请信",
+                "感谢信",
+                "日记"
+              ],
+              "prerequisites": [
+                "段落写作"
+              ],
+              "difficulty": 3,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "格式错误",
+                "内容不完整"
+              ]
+            },
+            {
+              "id": "kp_5_4",
+              "name": "看图写作",
+              "description": "根据图片内容写短文",
+              "method": "观察图片、确定主题、组织语言",
+              "prerequisites": [
+                "段落写作"
+              ],
+              "difficulty": 3,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "遗漏要点",
+                "时态不一致"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "初一": {
+      "subject": "英语",
+      "grade": "初一",
+      "semester": "上册",
+      "last_updated": "2026-04-29",
+      "units": [
+        {
+          "id": "unit_1",
+          "name": "时态进阶",
+          "description": "初中阶段重点时态的掌握与运用",
+          "knowledge_points": [
+            {
+              "id": "kp_1_1",
+              "name": "现在完成时",
+              "description": "表示过去发生的动作对现在造成的影响或结果",
+              "formula": "主语 + have/has + 过去分词",
+              "example": "I have finished my homework.",
+              "keywords": [
+                "already",
+                "yet",
+                "just",
+                "ever",
+                "never",
+                "before"
+              ],
+              "prerequisites": [
+                "过去分词",
+                "一般过去时"
+              ],
+              "difficulty": 4,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "与一般过去时混淆",
+                "过去分词变化错误"
+              ]
+            },
+            {
+              "id": "kp_1_2",
+              "name": "过去进行时",
+              "description": "表示过去某个时间正在进行的动作",
+              "formula": "主语 + was/were + 动词-ing",
+              "example": "I was reading when he came in.",
+              "keywords": [
+                "at that time",
+                "at 8 yesterday",
+                "when/while"
+              ],
+              "prerequisites": [
+                "现在进行时",
+                "be动词过去式"
+              ],
+              "difficulty": 3,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "was/were选择错误",
+                "与一般过去时混淆"
+              ]
+            },
+            {
+              "id": "kp_1_3",
+              "name": "过去将来时",
+              "description": "表示从过去某时看将要发生的动作",
+              "formula": "主语 + would/should + 动词原形 或 主语 + was/were going to + 动词原形",
+              "example": "He said he would come the next day.",
+              "prerequisites": [
+                "一般将来时",
+                "间接引语"
+              ],
+              "difficulty": 4,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "would后加to",
+                "时态混淆"
+              ]
+            },
+            {
+              "id": "kp_1_4",
+              "name": "过去完成时",
+              "description": "表示在过去某时间之前已经完成的动作",
+              "formula": "主语 + had + 过去分词",
+              "example": "When I got there, the train had left.",
+              "keywords": [
+                "by the time",
+                "before",
+                "when"
+              ],
+              "prerequisites": [
+                "现在完成时",
+                "过去分词"
+              ],
+              "difficulty": 4,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "与一般过去时混淆",
+                "had遗漏"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "unit_2",
+          "name": "句型进阶",
+          "description": "初中阶段重点句型结构",
+          "knowledge_points": [
+            {
+              "id": "kp_2_1",
+              "name": "特殊疑问句",
+              "description": "用疑问词开头的疑问句",
+              "question_words": [
+                "what",
+                "who",
+                "whose",
+                "which",
+                "when",
+                "where",
+                "why",
+                "how"
+              ],
+              "structure": "疑问词 + 一般疑问句语序",
+              "example": "What are you doing? Where does he live?",
+              "prerequisites": [
+                "一般疑问句"
+              ],
+              "difficulty": 3,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "疑问词选择错误",
+                "语序错误"
+              ]
+            },
+            {
+              "id": "kp_2_2",
+              "name": "祈使句",
+              "description": "表示请求、命令、建议等",
+              "structure": "动词原形开头，否定加Don't",
+              "types": [
+                "肯定祈使句",
+                "否定祈使句",
+                "Let's型"
+              ],
+              "example": "Open the door. Don't be late. Let's go.",
+              "prerequisites": [
+                "动词原形"
+              ],
+              "difficulty": 2,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "否定形式错误",
+                "Let's与Let us混淆"
+              ]
+            },
+            {
+              "id": "kp_2_3",
+              "name": "感叹句",
+              "description": "表示强烈感情的句子",
+              "structure": "What + (a/an) + 形容词 + 名词 + 主谓! / How + 形容词/副词 + 主谓!",
+              "example": "What a beautiful day! How fast he runs!",
+              "prerequisites": [
+                "形容词",
+                "副词"
+              ],
+              "difficulty": 3,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "What与How混淆",
+                "冠词使用错误"
+              ]
+            },
+            {
+              "id": "kp_2_4",
+              "name": "宾语从句",
+              "description": "在句中作宾语的从句",
+              "structure": "主句 + 引导词 + 从句（陈述语序）",
+              "connectors": [
+                "that",
+                "if/whether",
+                "what",
+                "who",
+                "where",
+                "when",
+                "why",
+                "how"
+              ],
+              "example": "I know that he is a teacher. I wonder if he will come.",
+              "prerequisites": [
+                "陈述句",
+                "疑问句"
+              ],
+              "difficulty": 4,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "语序错误",
+                "引导词选择错误",
+                "时态不一致"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "unit_3",
+          "name": "词类进阶",
+          "description": "初中阶段重点词类用法",
+          "knowledge_points": [
+            {
+              "id": "kp_3_1",
+              "name": "物主代词",
+              "description": "表示所有关系的代词",
+              "types": [
+                "形容词性(my/your/his/her/its/our/their)",
+                "名词性(mine/yours/his/hers/its/ours/theirs)"
+              ],
+              "example": "This is my book. This book is mine.",
+              "prerequisites": [
+                "人称代词"
+              ],
+              "difficulty": 2,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "形容词性与名词性混淆",
+                "its与it's混淆"
+              ]
+            },
+            {
+              "id": "kp_3_2",
+              "name": "情态动词",
+              "description": "表示说话人的语气和态度",
+              "types": [
+                "can/could",
+                "may/might",
+                "must",
+                "should",
+                "will/would"
+              ],
+              "usage": [
+                "能力",
+                "许可",
+                "必须",
+                "建议",
+                "意愿"
+              ],
+              "example": "I can swim. You must finish it. You should study hard.",
+              "prerequisites": [
+                "动词原形"
+              ],
+              "difficulty": 3,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "情态动词后加to",
+                "否定形式错误"
+              ]
+            },
+            {
+              "id": "kp_3_3",
+              "name": "不定代词",
+              "description": "不指明代替任何特定名词的代词",
+              "types": [
+                "some/any",
+                "many/much",
+                "few/little",
+                "all/both/none",
+                "each/every",
+                "other/another"
+              ],
+              "example": "I have some books. Do you have any books?",
+              "prerequisites": [
+                "代词基础"
+              ],
+              "difficulty": 3,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "some/any使用错误",
+                "可数不可数混淆"
+              ]
+            },
+            {
+              "id": "kp_3_4",
+              "name": "介词",
+              "description": "表示词与词之间关系的词",
+              "types": [
+                "时间介词(at/on/in)",
+                "地点介词(at/on/in)",
+                "方向介词(to/into/out of)",
+                "方式介词(by/with)"
+              ],
+              "example": "at 8 o'clock, on Monday, in 2024, in the box",
+              "prerequisites": [
+                "词汇基础"
+              ],
+              "difficulty": 3,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "介词选择错误",
+                "固定搭配记忆错误"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "unit_4",
+          "name": "阅读理解进阶",
+          "description": "初中英语阅读理解技巧",
+          "knowledge_points": [
+            {
+              "id": "kp_4_1",
+              "name": "主旨大意题",
+              "description": "理解文章或段落的主旨大意",
+              "method": "找主题句、归纳段落大意、分析标题",
+              "prerequisites": [
+                "词汇量",
+                "句型结构"
+              ],
+              "difficulty": 3,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "以偏概全",
+                "主题句找错"
+              ]
+            },
+            {
+              "id": "kp_4_2",
+              "name": "推理判断题",
+              "description": "根据文章内容进行合理推断",
+              "method": "基于文本、合理推断、排除干扰项",
+              "prerequisites": [
+                "细节理解",
+                "主旨大意"
+              ],
+              "difficulty": 4,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "过度推断",
+                "脱离文本",
+                "主观臆断"
+              ]
+            },
+            {
+              "id": "kp_4_3",
+              "name": "词义猜测题",
+              "description": "根据上下文猜测生词含义",
+              "method": "利用定义、举例、对比、构词法、上下文逻辑",
+              "prerequisites": [
+                "词汇基础",
+                "句型结构"
+              ],
+              "difficulty": 3,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "猜测无依据",
+                "理解偏差"
+              ]
+            },
+            {
+              "id": "kp_4_4",
+              "name": "任务型阅读",
+              "description": "根据文章内容完成表格或回答问题",
+              "types": [
+                "表格填空",
+                "回答问题",
+                "信息匹配",
+                "完成句子"
+              ],
+              "prerequisites": [
+                "细节理解",
+                "词汇拼写"
+              ],
+              "difficulty": 3,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "信息提取错误",
+                "单词拼写错误"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "unit_5",
+          "name": "写作进阶",
+          "description": "初中英语写作技巧",
+          "knowledge_points": [
+            {
+              "id": "kp_5_1",
+              "name": "书面表达",
+              "description": "根据提示写短文",
+              "types": [
+                "看图写作",
+                "提纲作文",
+                "话题作文",
+                "应用文"
+              ],
+              "key_points": [
+                "审题",
+                "列提纲",
+                "组织语言",
+                "检查修改"
+              ],
+              "prerequisites": [
+                "句子写作",
+                "段落写作"
+              ],
+              "difficulty": 3,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "审题不清",
+                "遗漏要点",
+                "语法错误"
+              ]
+            },
+            {
+              "id": "kp_5_2",
+              "name": "应用文写作",
+              "description": "写书信、邮件、通知等应用文",
+              "types": [
+                "书信",
+                "邮件",
+                "通知",
+                "便条",
+                "日记"
+              ],
+              "structure": "格式 + 内容 + 语言",
+              "prerequisites": [
+                "书面表达"
+              ],
+              "difficulty": 3,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "格式错误",
+                "内容不完整",
+                "语言不地道"
+              ]
+            },
+            {
+              "id": "kp_5_3",
+              "name": "句式变换",
+              "description": "使用多种句式使文章生动",
+              "methods": [
+                "简单句与复合句转换",
+                "主动与被动转换",
+                "使用连接词"
+              ],
+              "prerequisites": [
+                "句型结构"
+              ],
+              "difficulty": 4,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "句式单一",
+                "连接词使用错误"
+              ]
+            },
+            {
+              "id": "kp_5_4",
+              "name": "写作润色",
+              "description": "修改和润色文章",
+              "aspects": [
+                "语法正确",
+                "词汇丰富",
+                "句式多样",
+                "逻辑清晰",
+                "格式规范"
+              ],
+              "prerequisites": [
+                "书面表达"
+              ],
+              "difficulty": 3,
+              "mastery": 0,
+              "error_count": 0,
+              "last_practice": null,
+              "common_errors": [
+                "不检查",
+                "修改不彻底"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+};
