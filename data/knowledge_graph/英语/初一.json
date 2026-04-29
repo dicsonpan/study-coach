@@ -1,0 +1,304 @@
+{
+  "subject": "英语",
+  "grade": "初一",
+  "semester": "上册",
+  "last_updated": "2026-04-29",
+  "units": [
+    {
+      "id": "unit_1",
+      "name": "时态进阶",
+      "description": "初中阶段重点时态的掌握与运用",
+      "knowledge_points": [
+        {
+          "id": "kp_1_1",
+          "name": "现在完成时",
+          "description": "表示过去发生的动作对现在造成的影响或结果",
+          "formula": "主语 + have/has + 过去分词",
+          "example": "I have finished my homework.",
+          "keywords": ["already", "yet", "just", "ever", "never", "before"],
+          "prerequisites": ["过去分词", "一般过去时"],
+          "difficulty": 4,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["与一般过去时混淆", "过去分词变化错误"]
+        },
+        {
+          "id": "kp_1_2",
+          "name": "过去进行时",
+          "description": "表示过去某个时间正在进行的动作",
+          "formula": "主语 + was/were + 动词-ing",
+          "example": "I was reading when he came in.",
+          "keywords": ["at that time", "at 8 yesterday", "when/while"],
+          "prerequisites": ["现在进行时", "be动词过去式"],
+          "difficulty": 3,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["was/were选择错误", "与一般过去时混淆"]
+        },
+        {
+          "id": "kp_1_3",
+          "name": "过去将来时",
+          "description": "表示从过去某时看将要发生的动作",
+          "formula": "主语 + would/should + 动词原形 或 主语 + was/were going to + 动词原形",
+          "example": "He said he would come the next day.",
+          "prerequisites": ["一般将来时", "间接引语"],
+          "difficulty": 4,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["would后加to", "时态混淆"]
+        },
+        {
+          "id": "kp_1_4",
+          "name": "过去完成时",
+          "description": "表示在过去某时间之前已经完成的动作",
+          "formula": "主语 + had + 过去分词",
+          "example": "When I got there, the train had left.",
+          "keywords": ["by the time", "before", "when"],
+          "prerequisites": ["现在完成时", "过去分词"],
+          "difficulty": 4,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["与一般过去时混淆", "had遗漏"]
+        }
+      ]
+    },
+    {
+      "id": "unit_2",
+      "name": "句型进阶",
+      "description": "初中阶段重点句型结构",
+      "knowledge_points": [
+        {
+          "id": "kp_2_1",
+          "name": "特殊疑问句",
+          "description": "用疑问词开头的疑问句",
+          "question_words": ["what", "who", "whose", "which", "when", "where", "why", "how"],
+          "structure": "疑问词 + 一般疑问句语序",
+          "example": "What are you doing? Where does he live?",
+          "prerequisites": ["一般疑问句"],
+          "difficulty": 3,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["疑问词选择错误", "语序错误"]
+        },
+        {
+          "id": "kp_2_2",
+          "name": "祈使句",
+          "description": "表示请求、命令、建议等",
+          "structure": "动词原形开头，否定加Don't",
+          "types": ["肯定祈使句", "否定祈使句", "Let's型"],
+          "example": "Open the door. Don't be late. Let's go.",
+          "prerequisites": ["动词原形"],
+          "difficulty": 2,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["否定形式错误", "Let's与Let us混淆"]
+        },
+        {
+          "id": "kp_2_3",
+          "name": "感叹句",
+          "description": "表示强烈感情的句子",
+          "structure": "What + (a/an) + 形容词 + 名词 + 主谓! / How + 形容词/副词 + 主谓!",
+          "example": "What a beautiful day! How fast he runs!",
+          "prerequisites": ["形容词", "副词"],
+          "difficulty": 3,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["What与How混淆", "冠词使用错误"]
+        },
+        {
+          "id": "kp_2_4",
+          "name": "宾语从句",
+          "description": "在句中作宾语的从句",
+          "structure": "主句 + 引导词 + 从句（陈述语序）",
+          "connectors": ["that", "if/whether", "what", "who", "where", "when", "why", "how"],
+          "example": "I know that he is a teacher. I wonder if he will come.",
+          "prerequisites": ["陈述句", "疑问句"],
+          "difficulty": 4,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["语序错误", "引导词选择错误", "时态不一致"]
+        }
+      ]
+    },
+    {
+      "id": "unit_3",
+      "name": "词类进阶",
+      "description": "初中阶段重点词类用法",
+      "knowledge_points": [
+        {
+          "id": "kp_3_1",
+          "name": "物主代词",
+          "description": "表示所有关系的代词",
+          "types": ["形容词性(my/your/his/her/its/our/their)", "名词性(mine/yours/his/hers/its/ours/theirs)"],
+          "example": "This is my book. This book is mine.",
+          "prerequisites": ["人称代词"],
+          "difficulty": 2,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["形容词性与名词性混淆", "its与it's混淆"]
+        },
+        {
+          "id": "kp_3_2",
+          "name": "情态动词",
+          "description": "表示说话人的语气和态度",
+          "types": ["can/could", "may/might", "must", "should", "will/would"],
+          "usage": ["能力", "许可", "必须", "建议", "意愿"],
+          "example": "I can swim. You must finish it. You should study hard.",
+          "prerequisites": ["动词原形"],
+          "difficulty": 3,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["情态动词后加to", "否定形式错误"]
+        },
+        {
+          "id": "kp_3_3",
+          "name": "不定代词",
+          "description": "不指明代替任何特定名词的代词",
+          "types": ["some/any", "many/much", "few/little", "all/both/none", "each/every", "other/another"],
+          "example": "I have some books. Do you have any books?",
+          "prerequisites": ["代词基础"],
+          "difficulty": 3,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["some/any使用错误", "可数不可数混淆"]
+        },
+        {
+          "id": "kp_3_4",
+          "name": "介词",
+          "description": "表示词与词之间关系的词",
+          "types": ["时间介词(at/on/in)", "地点介词(at/on/in)", "方向介词(to/into/out of)", "方式介词(by/with)"],
+          "example": "at 8 o'clock, on Monday, in 2024, in the box",
+          "prerequisites": ["词汇基础"],
+          "difficulty": 3,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["介词选择错误", "固定搭配记忆错误"]
+        }
+      ]
+    },
+    {
+      "id": "unit_4",
+      "name": "阅读理解进阶",
+      "description": "初中英语阅读理解技巧",
+      "knowledge_points": [
+        {
+          "id": "kp_4_1",
+          "name": "主旨大意题",
+          "description": "理解文章或段落的主旨大意",
+          "method": "找主题句、归纳段落大意、分析标题",
+          "prerequisites": ["词汇量", "句型结构"],
+          "difficulty": 3,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["以偏概全", "主题句找错"]
+        },
+        {
+          "id": "kp_4_2",
+          "name": "推理判断题",
+          "description": "根据文章内容进行合理推断",
+          "method": "基于文本、合理推断、排除干扰项",
+          "prerequisites": ["细节理解", "主旨大意"],
+          "difficulty": 4,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["过度推断", "脱离文本", "主观臆断"]
+        },
+        {
+          "id": "kp_4_3",
+          "name": "词义猜测题",
+          "description": "根据上下文猜测生词含义",
+          "method": "利用定义、举例、对比、构词法、上下文逻辑",
+          "prerequisites": ["词汇基础", "句型结构"],
+          "difficulty": 3,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["猜测无依据", "理解偏差"]
+        },
+        {
+          "id": "kp_4_4",
+          "name": "任务型阅读",
+          "description": "根据文章内容完成表格或回答问题",
+          "types": ["表格填空", "回答问题", "信息匹配", "完成句子"],
+          "prerequisites": ["细节理解", "词汇拼写"],
+          "difficulty": 3,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["信息提取错误", "单词拼写错误"]
+        }
+      ]
+    },
+    {
+      "id": "unit_5",
+      "name": "写作进阶",
+      "description": "初中英语写作技巧",
+      "knowledge_points": [
+        {
+          "id": "kp_5_1",
+          "name": "书面表达",
+          "description": "根据提示写短文",
+          "types": ["看图写作", "提纲作文", "话题作文", "应用文"],
+          "key_points": ["审题", "列提纲", "组织语言", "检查修改"],
+          "prerequisites": ["句子写作", "段落写作"],
+          "difficulty": 3,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["审题不清", "遗漏要点", "语法错误"]
+        },
+        {
+          "id": "kp_5_2",
+          "name": "应用文写作",
+          "description": "写书信、邮件、通知等应用文",
+          "types": ["书信", "邮件", "通知", "便条", "日记"],
+          "structure": "格式 + 内容 + 语言",
+          "prerequisites": ["书面表达"],
+          "difficulty": 3,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["格式错误", "内容不完整", "语言不地道"]
+        },
+        {
+          "id": "kp_5_3",
+          "name": "句式变换",
+          "description": "使用多种句式使文章生动",
+          "methods": ["简单句与复合句转换", "主动与被动转换", "使用连接词"],
+          "prerequisites": ["句型结构"],
+          "difficulty": 4,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["句式单一", "连接词使用错误"]
+        },
+        {
+          "id": "kp_5_4",
+          "name": "写作润色",
+          "description": "修改和润色文章",
+          "aspects": ["语法正确", "词汇丰富", "句式多样", "逻辑清晰", "格式规范"],
+          "prerequisites": ["书面表达"],
+          "difficulty": 3,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["不检查", "修改不彻底"]
+        }
+      ]
+    }
+  ]
+}
