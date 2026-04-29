@@ -1,0 +1,293 @@
+{
+  "subject": "语文",
+  "grade": "初一",
+  "semester": "上册",
+  "last_updated": "2026-04-29",
+  "units": [
+    {
+      "id": "unit_1",
+      "name": "文言文阅读",
+      "description": "初一重点文言文的理解与鉴赏",
+      "knowledge_points": [
+        {
+          "id": "kp_1_1",
+          "name": "《论语》十二章",
+          "description": "理解《论语》中的学习态度和方法",
+          "key_content": ["学而时习之", "温故而知新", "学而不思则罔"],
+          "key_words": ["时：按时", "故：旧知识", "罔：迷惑"],
+          "prerequisites": ["文言实词", "文言虚词"],
+          "difficulty": 3,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["关键词解释错误", "句意理解偏差"]
+        },
+        {
+          "id": "kp_1_2",
+          "name": "《世说新语》二则",
+          "description": "理解《咏雪》《陈太丘与友期行》",
+          "key_content": ["谢太傅寒雪日内集", "元方时年七岁"],
+          "key_words": ["内集：家庭聚会", "俄而：不久", "去：离开"],
+          "prerequisites": ["文言实词"],
+          "difficulty": 3,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["古今异义不理解", "人物关系混淆"]
+        },
+        {
+          "id": "kp_1_3",
+          "name": "《诫子书》",
+          "description": "理解诸葛亮的家书内容",
+          "key_content": ["静以修身，俭以养德", "非淡泊无以明志"],
+          "key_words": ["静：宁静", "淡泊：不追求名利"],
+          "prerequisites": ["文言实词", "文言句式"],
+          "difficulty": 3,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["关键词解释错误", "主旨理解偏差"]
+        },
+        {
+          "id": "kp_1_4",
+          "name": "《狼》",
+          "description": "理解蒲松龄《狼》的故事与寓意",
+          "key_content": ["一狼得骨止", "狼亦黠矣"],
+          "key_words": ["黠：狡猾", "顷刻：一会儿", "暴：突然"],
+          "prerequisites": ["文言实词", "叙事理解"],
+          "difficulty": 4,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["情节理解错误", "寓意把握不准"]
+        }
+      ]
+    },
+    {
+      "id": "unit_2",
+      "name": "古诗词鉴赏",
+      "description": "初一必背古诗词的理解与鉴赏",
+      "knowledge_points": [
+        {
+          "id": "kp_2_1",
+          "name": "《观沧海》",
+          "description": "理解曹操的壮志豪情",
+          "key_content": ["日月之行，若出其中"],
+          "technique": "借景抒情",
+          "prerequisites": ["古诗基础"],
+          "difficulty": 3,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["关键词解释错误", "情感把握不准"]
+        },
+        {
+          "id": "kp_2_2",
+          "name": "《闻王昌龄左迁龙标遥有此寄》",
+          "description": "理解李白的友情与关切",
+          "key_content": ["我寄愁心与明月，随君直到夜郎西"],
+          "technique": "拟人、借景抒情",
+          "prerequisites": ["古诗基础"],
+          "difficulty": 3,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["情感理解偏差", "修辞手法判断错误"]
+        },
+        {
+          "id": "kp_2_3",
+          "name": "《次北固山下》",
+          "description": "理解王湾的思乡之情",
+          "key_content": ["海日生残夜，江春入旧年"],
+          "technique": "对偶、借景抒情",
+          "prerequisites": ["古诗基础"],
+          "difficulty": 3,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["名句理解错误", "情感把握不准"]
+        },
+        {
+          "id": "kp_2_4",
+          "name": "《天净沙·秋思》",
+          "description": "理解马致远的羁旅之思",
+          "key_content": ["夕阳西下，断肠人在天涯"],
+          "technique": "意象叠加、借景抒情",
+          "prerequisites": ["古诗基础"],
+          "difficulty": 3,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["意象理解错误", "情感把握不准"]
+        }
+      ]
+    },
+    {
+      "id": "unit_3",
+      "name": "现代文阅读",
+      "description": "现代文阅读理解方法与技巧",
+      "knowledge_points": [
+        {
+          "id": "kp_3_1",
+          "name": "记叙文阅读",
+          "description": "理解记叙文的要素和主题",
+          "key_points": ["六要素", "叙述顺序", "人物形象", "主题思想"],
+          "prerequisites": ["阅读能力"],
+          "difficulty": 3,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["要素遗漏", "主题理解偏差"]
+        },
+        {
+          "id": "kp_3_2",
+          "name": "散文阅读",
+          "description": "理解散文的内容和情感",
+          "key_points": ["形散神聚", "线索", "情感", "语言特色"],
+          "prerequisites": ["记叙文阅读"],
+          "difficulty": 4,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["线索找错", "情感把握不准"]
+        },
+        {
+          "id": "kp_3_3",
+          "name": "说明文阅读",
+          "description": "理解说明文的内容和方法",
+          "key_points": ["说明对象", "说明顺序", "说明方法", "语言特点"],
+          "methods": ["举例子", "列数字", "作比较", "打比方"],
+          "prerequisites": ["阅读能力"],
+          "difficulty": 3,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["说明方法判断错误", "语言特点分析不准"]
+        },
+        {
+          "id": "kp_3_4",
+          "name": "议论文阅读",
+          "description": "理解议论文的论点和论据",
+          "key_points": ["论点", "论据", "论证方法", "论证思路"],
+          "methods": ["举例论证", "道理论证", "对比论证", "比喻论证"],
+          "prerequisites": ["阅读能力"],
+          "difficulty": 4,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["论点找错", "论证方法判断错误"]
+        }
+      ]
+    },
+    {
+      "id": "unit_4",
+      "name": "写作",
+      "description": "初一写作技巧与训练",
+      "knowledge_points": [
+        {
+          "id": "kp_4_1",
+          "name": "记叙文写作",
+          "description": "写人记事的进阶技巧",
+          "key_points": ["选材典型", "细节生动", "情感真挚", "主题深刻"],
+          "prerequisites": ["六年级写作基础"],
+          "difficulty": 3,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["选材平淡", "细节不具体", "主题不深刻"]
+        },
+        {
+          "id": "kp_4_2",
+          "name": "写景状物",
+          "description": "描写景物和事物的方法",
+          "key_points": ["观察角度", "描写顺序", "修辞运用", "情景交融"],
+          "prerequisites": ["记叙文写作"],
+          "difficulty": 3,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["描写无序", "缺少情感"]
+        },
+        {
+          "id": "kp_4_3",
+          "name": "议论性文章",
+          "description": "表达观点和看法",
+          "key_points": ["观点明确", "论据充分", "论证有力"],
+          "prerequisites": ["议论文阅读"],
+          "difficulty": 4,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["观点不明确", "论据不充分"]
+        },
+        {
+          "id": "kp_4_4",
+          "name": "应用文写作",
+          "description": "写通知、请假条、书信等",
+          "types": ["通知", "请假条", "书信", "读后感"],
+          "prerequisites": ["写作基础"],
+          "difficulty": 2,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["格式错误", "内容不完整"]
+        }
+      ]
+    },
+    {
+      "id": "unit_5",
+      "name": "基础知识",
+      "description": "语文基础知识的巩固与提升",
+      "knowledge_points": [
+        {
+          "id": "kp_5_1",
+          "name": "字音字形",
+          "description": "准确掌握常用字的读音和写法",
+          "key_points": ["多音字", "形近字", "易错字"],
+          "prerequisites": ["六年级字词基础"],
+          "difficulty": 2,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["读音错误", "字形错误"]
+        },
+        {
+          "id": "kp_5_2",
+          "name": "成语运用",
+          "description": "正确理解和使用成语",
+          "key_points": ["成语含义", "使用语境", "感情色彩", "适用对象"],
+          "prerequisites": ["词汇积累"],
+          "difficulty": 3,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["望文生义", "对象误用", "褒贬误用"]
+        },
+        {
+          "id": "kp_5_3",
+          "name": "病句辨析",
+          "description": "识别和修改常见病句",
+          "types": ["成分残缺", "搭配不当", "语序不当", "前后矛盾", "重复啰嗦"],
+          "prerequisites": ["语法基础"],
+          "difficulty": 3,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["病句类型判断错误", "修改不当"]
+        },
+        {
+          "id": "kp_5_4",
+          "name": "修辞手法",
+          "description": "识别和运用常见修辞手法",
+          "types": ["比喻", "拟人", "排比", "夸张", "对偶", "反问", "设问"],
+          "prerequisites": ["语言基础"],
+          "difficulty": 2,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["修辞类型判断错误", "与表现手法混淆"]
+        }
+      ]
+    }
+  ]
+}
