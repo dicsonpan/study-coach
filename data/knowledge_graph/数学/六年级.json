@@ -1,0 +1,321 @@
+{
+  "subject": "数学",
+  "grade": "六年级",
+  "semester": "上册",
+  "last_updated": "2026-04-29",
+  "units": [
+    {
+      "id": "unit_1",
+      "name": "分数乘法",
+      "description": "分数乘法的意义、计算方法和应用",
+      "knowledge_points": [
+        {
+          "id": "kp_1_1",
+          "name": "分数乘整数",
+          "description": "分数乘整数的意义：求几个相同加数的和的简便运算",
+          "formula": "分数×整数 = (分子×整数)/分母",
+          "example": "3/4 × 3 = (3×3)/4 = 9/4",
+          "prerequisites": ["分数的认识", "整数乘法"],
+          "difficulty": 2,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["忘记约分", "分子分母都乘整数"]
+        },
+        {
+          "id": "kp_1_2",
+          "name": "分数乘分数",
+          "description": "分数乘分数的意义：求一个数的几分之几是多少",
+          "formula": "分数×分数 = (分子×分子)/(分母×分母)",
+          "example": "2/3 × 3/4 = (2×3)/(3×4) = 6/12 = 1/2",
+          "prerequisites": ["分数乘整数", "约分"],
+          "difficulty": 3,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["约分不彻底", "分子乘分母"]
+        },
+        {
+          "id": "kp_1_3",
+          "name": "分数混合运算",
+          "description": "分数乘法与加减法的混合运算",
+          "formula": "先乘除，后加减，有括号先算括号内",
+          "example": "1/2 + 1/3 × 3/4 = 1/2 + 1/4 = 3/4",
+          "prerequisites": ["分数乘分数", "分数加减法"],
+          "difficulty": 3,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["运算顺序错误", "忘记通分"]
+        },
+        {
+          "id": "kp_1_4",
+          "name": "分数乘法应用题",
+          "description": "用分数乘法解决实际问题",
+          "key_words": ["的", "占", "是"],
+          "example": "一本书有120页，小明读了全书的1/3，读了多少页？",
+          "prerequisites": ["分数乘分数"],
+          "difficulty": 4,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["找错单位1", "不会列式"]
+        }
+      ]
+    },
+    {
+      "id": "unit_2",
+      "name": "位置与方向（二）",
+      "description": "用方向和距离确定位置",
+      "knowledge_points": [
+        {
+          "id": "kp_2_1",
+          "name": "确定物体位置",
+          "description": "用方向和距离两个条件确定物体的位置",
+          "key_concept": "方向 + 距离 = 位置",
+          "example": "学校在小明家北偏东30°方向500米处",
+          "prerequisites": ["方向的认识", "角度测量"],
+          "difficulty": 2,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["方向判断错误", "角度测量不准"]
+        },
+        {
+          "id": "kp_2_2",
+          "name": "描述路线图",
+          "description": "用方向和距离描述行走的路线",
+          "key_concept": "起点→方向距离→终点",
+          "prerequisites": ["确定物体位置"],
+          "difficulty": 3,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["方向描述不清", "漏掉距离"]
+        }
+      ]
+    },
+    {
+      "id": "unit_3",
+      "name": "分数除法",
+      "description": "分数除法的意义、计算方法和应用",
+      "knowledge_points": [
+        {
+          "id": "kp_3_1",
+          "name": "倒数的认识",
+          "description": "乘积是1的两个数互为倒数",
+          "formula": "a的倒数 = 1/a",
+          "example": "3/4的倒数是4/3，5的倒数是1/5",
+          "prerequisites": ["分数乘法"],
+          "difficulty": 2,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["0有倒数", "倒数概念混淆"]
+        },
+        {
+          "id": "kp_3_2",
+          "name": "分数除法计算",
+          "description": "除以一个数等于乘这个数的倒数",
+          "formula": "a÷b = a×(1/b)",
+          "example": "3/4 ÷ 2/5 = 3/4 × 5/2 = 15/8",
+          "prerequisites": ["倒数的认识", "分数乘法"],
+          "difficulty": 3,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["忘记变号", "倒数求错"]
+        },
+        {
+          "id": "kp_3_3",
+          "name": "分数除法应用题",
+          "description": "已知一个数的几分之几是多少，求这个数",
+          "key_method": "方程法或除法",
+          "example": "一本书读了1/3，正好是40页，这本书共多少页？",
+          "prerequisites": ["分数除法计算"],
+          "difficulty": 4,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["用乘法做", "找错单位1"]
+        }
+      ]
+    },
+    {
+      "id": "unit_4",
+      "name": "比",
+      "description": "比的意义、性质和应用",
+      "knowledge_points": [
+        {
+          "id": "kp_4_1",
+          "name": "比的意义",
+          "description": "两个数相除又叫做两个数的比",
+          "formula": "a:b = a÷b",
+          "example": "3:4表示3除以4",
+          "prerequisites": ["除法"],
+          "difficulty": 2,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["比与比值混淆", "前后项颠倒"]
+        },
+        {
+          "id": "kp_4_2",
+          "name": "比的基本性质",
+          "description": "比的前项和后项同时乘或除以相同的数（0除外），比值不变",
+          "formula": "a:b = (a×c):(b×c)",
+          "prerequisites": ["比的意义", "分数的基本性质"],
+          "difficulty": 2,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["忘记0除外", "只乘一项"]
+        },
+        {
+          "id": "kp_4_3",
+          "name": "化简比",
+          "description": "把比化成最简整数比",
+          "method": "前项和后项同时除以最大公因数",
+          "example": "12:18 = 2:3",
+          "prerequisites": ["比的基本性质", "最大公因数"],
+          "difficulty": 3,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["化简不彻底", "用小数表示"]
+        },
+        {
+          "id": "kp_4_4",
+          "name": "按比例分配",
+          "description": "把一个数量按一定的比进行分配",
+          "method": "总量÷份数和×各份数",
+          "example": "把120按2:3分配，分别是48和72",
+          "prerequisites": ["比的意义", "分数乘法"],
+          "difficulty": 4,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["份数计算错误", "分配不完整"]
+        }
+      ]
+    },
+    {
+      "id": "unit_5",
+      "name": "圆",
+      "description": "圆的认识、周长和面积",
+      "knowledge_points": [
+        {
+          "id": "kp_5_1",
+          "name": "圆的认识",
+          "description": "圆心、半径、直径的概念和关系",
+          "formula": "d = 2r",
+          "key_concept": "同圆内直径是半径的2倍",
+          "prerequisites": ["图形的认识"],
+          "difficulty": 2,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["半径直径混淆", "圆心位置判断错误"]
+        },
+        {
+          "id": "kp_5_2",
+          "name": "圆的周长",
+          "description": "圆周长的计算公式和应用",
+          "formula": "C = πd = 2πr",
+          "constant": "π ≈ 3.14",
+          "prerequisites": ["圆的认识"],
+          "difficulty": 3,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["公式记错", "π取值错误"]
+        },
+        {
+          "id": "kp_5_3",
+          "name": "圆的面积",
+          "description": "圆面积的计算公式和应用",
+          "formula": "S = πr²",
+          "derivation": "把圆分成若干等份，拼成近似长方形",
+          "prerequisites": ["圆的认识", "面积概念"],
+          "difficulty": 3,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["半径平方算错", "周长面积公式混淆"]
+        },
+        {
+          "id": "kp_5_4",
+          "name": "圆环面积",
+          "description": "圆环面积的计算",
+          "formula": "S = π(R² - r²)",
+          "example": "外圆半径5cm，内圆半径3cm，面积 = π(25-9) = 16π",
+          "prerequisites": ["圆的面积"],
+          "difficulty": 3,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["忘记减内圆", "半径直径混淆"]
+        }
+      ]
+    },
+    {
+      "id": "unit_6",
+      "name": "百分数（一）",
+      "description": "百分数的意义和应用",
+      "knowledge_points": [
+        {
+          "id": "kp_6_1",
+          "name": "百分数的意义",
+          "description": "表示一个数是另一个数的百分之几",
+          "key_concept": "百分数也叫百分率或百分比",
+          "example": "50%表示一半",
+          "prerequisites": ["分数的认识"],
+          "difficulty": 2,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["百分数带单位", "概念理解错误"]
+        },
+        {
+          "id": "kp_6_2",
+          "name": "百分数与小数互化",
+          "description": "百分数与小数的相互转换",
+          "method": "小数化百分数：小数点右移两位，加%；百分数化小数：去掉%，小数点左移两位",
+          "example": "0.25 = 25%，75% = 0.75",
+          "prerequisites": ["百分数的意义", "小数"],
+          "difficulty": 2,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["小数点移错方向", "忘记加%"]
+        },
+        {
+          "id": "kp_6_3",
+          "name": "百分数与分数互化",
+          "description": "百分数与分数的相互转换",
+          "method": "分数化百分数：先化小数再化百分数；百分数化分数：先化分数再约分",
+          "example": "1/4 = 25%，60% = 3/5",
+          "prerequisites": ["百分数与小数互化", "分数"],
+          "difficulty": 3,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["约分不彻底", "转换方法错误"]
+        },
+        {
+          "id": "kp_6_4",
+          "name": "百分数应用",
+          "description": "用百分数解决实际问题",
+          "key_words": ["占", "是", "比...多/少"],
+          "example": "合格率 = 合格数÷总数×100%",
+          "prerequisites": ["百分数互化", "分数应用题"],
+          "difficulty": 4,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["找错单位1", "计算错误"]
+        }
+      ]
+    }
+  ]
+}
