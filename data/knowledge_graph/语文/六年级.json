@@ -1,0 +1,290 @@
+{
+  "subject": "语文",
+  "grade": "六年级",
+  "semester": "上册",
+  "last_updated": "2026-04-29",
+  "units": [
+    {
+      "id": "unit_1",
+      "name": "字词积累",
+      "description": "六年级重点字词的音形义",
+      "knowledge_points": [
+        {
+          "id": "kp_1_1",
+          "name": "多音字辨析",
+          "description": "根据语境判断多音字的正确读音",
+          "example": "差：差别(chā)、差劲(chà)、出差(chāi)、参差(cī)",
+          "prerequisites": ["拼音基础", "字义理解"],
+          "difficulty": 2,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["读音判断错误", "不理解词义导致误读"]
+        },
+        {
+          "id": "kp_1_2",
+          "name": "形近字辨析",
+          "description": "区分字形相近但意义不同的字",
+          "example": "燥(干燥) vs 躁(急躁) vs 噪(噪音)",
+          "prerequisites": ["汉字结构", "偏旁部首"],
+          "difficulty": 2,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["字形混淆", "偏旁记错"]
+        },
+        {
+          "id": "kp_1_3",
+          "name": "成语积累",
+          "description": "理解并运用常见成语",
+          "key_points": ["成语含义", "使用语境", "感情色彩"],
+          "example": "画龙点睛、栩栩如生、惟妙惟肖",
+          "prerequisites": ["词语理解", "语境分析"],
+          "difficulty": 3,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["望文生义", "感情色彩判断错误"]
+        },
+        {
+          "id": "kp_1_4",
+          "name": "词语搭配",
+          "description": "掌握词语的正确搭配方式",
+          "example": "改进-方法、改善-生活、改变-面貌",
+          "prerequisites": ["词义理解"],
+          "difficulty": 2,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["搭配不当", "近义词混淆"]
+        }
+      ]
+    },
+    {
+      "id": "unit_2",
+      "name": "古诗词",
+      "description": "六年级必背古诗词的理解与鉴赏",
+      "knowledge_points": [
+        {
+          "id": "kp_2_1",
+          "name": "古诗背诵",
+          "description": "准确背诵六年级必背古诗",
+          "key_poems": ["《七律·长征》", "《春日》", "《浪淘沙》", "《江南春》"],
+          "prerequisites": ["朗读能力"],
+          "difficulty": 2,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["背诵不熟练", "字词错误"]
+        },
+        {
+          "id": "kp_2_2",
+          "name": "诗意理解",
+          "description": "理解古诗的字面意思和深层含义",
+          "method": "逐句翻译 + 意境体会",
+          "example": "《七律·长征》歌颂红军长征的英雄气概和革命乐观主义精神",
+          "prerequisites": ["古诗背诵", "文言文基础"],
+          "difficulty": 3,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["理解偏差", "关键词解释错误"]
+        },
+        {
+          "id": "kp_2_3",
+          "name": "修辞手法",
+          "description": "识别古诗中的修辞手法",
+          "types": ["比喻", "拟人", "夸张", "对偶"],
+          "example": "飞流直下三千尺（夸张）",
+          "prerequisites": ["诗意理解"],
+          "difficulty": 3,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["修辞类型判断错误", "与表现手法混淆"]
+        },
+        {
+          "id": "kp_2_4",
+          "name": "情感把握",
+          "description": "体会诗人表达的思想感情",
+          "common_emotions": ["思乡", "爱国", "友情", "自然之美"],
+          "prerequisites": ["诗意理解"],
+          "difficulty": 4,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["情感理解偏差", "过度解读"]
+        }
+      ]
+    },
+    {
+      "id": "unit_3",
+      "name": "文言文入门",
+      "description": "文言文基础知识与阅读",
+      "knowledge_points": [
+        {
+          "id": "kp_3_1",
+          "name": "文言实词",
+          "description": "掌握常见文言实词的含义",
+          "key_words": ["之", "其", "者", "也", "矣"],
+          "example": "之：助词'的'、代词、动词'去'",
+          "prerequisites": ["现代文阅读"],
+          "difficulty": 3,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["一词多义混淆", "古今异义不理解"]
+        },
+        {
+          "id": "kp_3_2",
+          "name": "文言虚词",
+          "description": "理解文言虚词的用法",
+          "key_words": ["而", "以", "于", "乃", "且"],
+          "example": "而：表并列、表转折、表承接",
+          "prerequisites": ["文言实词"],
+          "difficulty": 4,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["虚词用法判断错误", "与实词混淆"]
+        },
+        {
+          "id": "kp_3_3",
+          "name": "文言句式",
+          "description": "识别常见文言句式",
+          "types": ["判断句", "省略句", "倒装句", "被动句"],
+          "example": "……者，……也（判断句）",
+          "prerequisites": ["文言实词", "文言虚词"],
+          "difficulty": 4,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["句式判断错误", "翻译不准确"]
+        },
+        {
+          "id": "kp_3_4",
+          "name": "文言文翻译",
+          "description": "准确翻译文言文",
+          "method": "字字落实、直译为主、意译为辅",
+          "prerequisites": ["文言实词", "文言虚词", "文言句式"],
+          "difficulty": 4,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["漏译", "意译过度", "关键词翻译错误"]
+        }
+      ]
+    },
+    {
+      "id": "unit_4",
+      "name": "现代文阅读",
+      "description": "现代文阅读理解方法与技巧",
+      "knowledge_points": [
+        {
+          "id": "kp_4_1",
+          "name": "概括主要内容",
+          "description": "准确概括文章的主要内容",
+          "method": "找中心句、合并段落大意、六要素法",
+          "prerequisites": ["阅读能力"],
+          "difficulty": 3,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["概括不全面", "偏离主题"]
+        },
+        {
+          "id": "kp_4_2",
+          "name": "理解重点词句",
+          "description": "理解文中关键词句的含义和作用",
+          "method": "结合语境、分析修辞、体会情感",
+          "example": "分析加点词的表达效果",
+          "prerequisites": ["概括主要内容"],
+          "difficulty": 3,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["脱离语境", "理解片面"]
+        },
+        {
+          "id": "kp_4_3",
+          "name": "分析人物形象",
+          "description": "分析文中人物的性格特点",
+          "method": "从语言、动作、心理、神态描写入手",
+          "prerequisites": ["理解重点词句"],
+          "difficulty": 3,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["分析不具体", "缺少文本依据"]
+        },
+        {
+          "id": "kp_4_4",
+          "name": "体会文章情感",
+          "description": "把握作者的思想感情",
+          "method": "抓关键词、分析写作手法、联系背景",
+          "prerequisites": ["概括主要内容", "理解重点词句"],
+          "difficulty": 4,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["情感判断错误", "过度解读"]
+        }
+      ]
+    },
+    {
+      "id": "unit_5",
+      "name": "写作",
+      "description": "六年级写作技巧与训练",
+      "knowledge_points": [
+        {
+          "id": "kp_5_1",
+          "name": "记叙文写作",
+          "description": "写人记事的基本方法",
+          "key_points": ["六要素完整", "详略得当", "细节描写"],
+          "prerequisites": ["阅读理解"],
+          "difficulty": 3,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["流水账", "缺少细节", "主题不明确"]
+        },
+        {
+          "id": "kp_5_2",
+          "name": "描写方法",
+          "description": "运用多种描写方法使文章生动",
+          "types": ["外貌描写", "语言描写", "动作描写", "心理描写", "环境描写"],
+          "prerequisites": ["记叙文写作"],
+          "difficulty": 3,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["描写单一", "描写不具体"]
+        },
+        {
+          "id": "kp_5_3",
+          "name": "开头结尾",
+          "description": "写好文章的开头和结尾",
+          "methods": ["开门见山", "设置悬念", "首尾呼应", "点明中心"],
+          "prerequisites": ["记叙文写作"],
+          "difficulty": 3,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["开头冗长", "结尾仓促", "首尾不呼应"]
+        },
+        {
+          "id": "kp_5_4",
+          "name": "修改润色",
+          "description": "修改文章使其更加完善",
+          "method": "检查错别字、修改病句、润色语言",
+          "prerequisites": ["记叙文写作"],
+          "difficulty": 2,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["不检查", "修改不彻底"]
+        }
+      ]
+    }
+  ]
+}
