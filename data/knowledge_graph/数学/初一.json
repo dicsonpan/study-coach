@@ -1,0 +1,412 @@
+{
+  "subject": "数学",
+  "grade": "初一",
+  "semester": "上册",
+  "last_updated": "2026-04-29",
+  "units": [
+    {
+      "id": "unit_1",
+      "name": "有理数",
+      "description": "有理数的概念、分类和表示",
+      "knowledge_points": [
+        {
+          "id": "kp_1_1",
+          "name": "正数和负数",
+          "description": "用正数和负数表示具有相反意义的量",
+          "key_concept": "正数大于0，负数小于0，0既不是正数也不是负数",
+          "example": "零上5℃记作+5℃，零下3℃记作-3℃",
+          "prerequisites": ["小学数的认识"],
+          "difficulty": 2,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["0的分类判断错误", "正负号理解错误"]
+        },
+        {
+          "id": "kp_1_2",
+          "name": "有理数的分类",
+          "description": "整数和分数统称为有理数",
+          "classification": "按定义分：整数（正整数、0、负整数）、分数（正分数、负分数）；按符号分：正有理数、0、负有理数",
+          "prerequisites": ["正数和负数", "整数", "分数"],
+          "difficulty": 2,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["分类遗漏", "0的位置判断错误"]
+        },
+        {
+          "id": "kp_1_3",
+          "name": "数轴",
+          "description": "规定了原点、正方向、单位长度的直线",
+          "three_elements": ["原点", "正方向", "单位长度"],
+          "key_concept": "数轴上的点与有理数一一对应",
+          "prerequisites": ["有理数的分类"],
+          "difficulty": 2,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["三要素遗漏", "单位长度不一致"]
+        },
+        {
+          "id": "kp_1_4",
+          "name": "相反数",
+          "description": "只有符号不同的两个数互为相反数",
+          "formula": "a的相反数是-a，a+(-a)=0",
+          "example": "5的相反数是-5，-3的相反数是3",
+          "prerequisites": ["数轴"],
+          "difficulty": 2,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["0的相反数判断错误", "相反数与倒数混淆"]
+        },
+        {
+          "id": "kp_1_5",
+          "name": "绝对值",
+          "description": "一个数在数轴上对应的点到原点的距离",
+          "formula": "|a| = a (a≥0), |a| = -a (a<0)",
+          "key_concept": "绝对值是非负数",
+          "example": "|5| = 5, |-3| = 3, |0| = 0",
+          "prerequisites": ["数轴"],
+          "difficulty": 3,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["绝对值可能是负数", "计算错误"]
+        },
+        {
+          "id": "kp_1_6",
+          "name": "有理数的大小比较",
+          "description": "比较有理数大小的方法",
+          "rules": ["正数>0>负数", "两个负数比较，绝对值大的反而小"],
+          "example": "-3 < -1 < 0 < 2",
+          "prerequisites": ["绝对值"],
+          "difficulty": 2,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["负数大小比较方向错误", "忘记考虑符号"]
+        }
+      ]
+    },
+    {
+      "id": "unit_2",
+      "name": "有理数的运算",
+      "description": "有理数的加减乘除和乘方运算",
+      "knowledge_points": [
+        {
+          "id": "kp_2_1",
+          "name": "有理数加法",
+          "description": "有理数加法的法则和运算律",
+          "rules": ["同号相加，取相同符号，绝对值相加", "异号相加，取绝对值大的符号，绝对值相减", "互为相反数的两数相加得0"],
+          "example": "(-3)+(-5)=-8, (-3)+5=2",
+          "prerequisites": ["有理数", "绝对值"],
+          "difficulty": 3,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["符号判断错误", "绝对值运算错误"]
+        },
+        {
+          "id": "kp_2_2",
+          "name": "有理数减法",
+          "description": "减去一个数等于加上这个数的相反数",
+          "formula": "a - b = a + (-b)",
+          "example": "5 - (-3) = 5 + 3 = 8",
+          "prerequisites": ["有理数加法", "相反数"],
+          "difficulty": 3,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["忘记变号", "连续减法处理错误"]
+        },
+        {
+          "id": "kp_2_3",
+          "name": "有理数乘法",
+          "description": "有理数乘法的法则和运算律",
+          "rules": ["两数相乘，同号得正，异号得负，绝对值相乘", "任何数与0相乘都得0"],
+          "example": "(-3)×(-4)=12, (-3)×4=-12",
+          "prerequisites": ["有理数加减法"],
+          "difficulty": 3,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["符号判断错误", "多个负数相乘符号错误"]
+        },
+        {
+          "id": "kp_2_4",
+          "name": "有理数除法",
+          "description": "除以一个不等于0的数等于乘这个数的倒数",
+          "formula": "a ÷ b = a × (1/b)",
+          "key_concept": "0不能做除数",
+          "prerequisites": ["有理数乘法", "倒数"],
+          "difficulty": 3,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["忘记变号", "倒数求错"]
+        },
+        {
+          "id": "kp_2_5",
+          "name": "有理数乘方",
+          "description": "求n个相同因数的积的运算",
+          "formula": "a^n = a×a×...×a (n个a)",
+          "key_concept": "负数的奇次幂是负数，偶次幂是正数",
+          "example": "(-2)^3 = -8, (-2)^4 = 16",
+          "prerequisites": ["有理数乘法"],
+          "difficulty": 3,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["-a^n与(-a)^n混淆", "符号判断错误"]
+        },
+        {
+          "id": "kp_2_6",
+          "name": "有理数混合运算",
+          "description": "有理数的混合运算顺序",
+          "order": "先乘方，再乘除，最后加减；有括号先算括号内",
+          "example": "-3^2 + 2×(-3) = -9 + (-6) = -15",
+          "prerequisites": ["有理数加减乘除乘方"],
+          "difficulty": 4,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["运算顺序错误", "符号处理错误"]
+        }
+      ]
+    },
+    {
+      "id": "unit_3",
+      "name": "代数式",
+      "description": "用字母表示数，代数式的概念",
+      "knowledge_points": [
+        {
+          "id": "kp_3_1",
+          "name": "用字母表示数",
+          "description": "用字母表示数或数量关系",
+          "rules": ["数字与字母相乘，数字在前，乘号省略", "字母与字母相乘，乘号省略"],
+          "example": "买3支单价a元的笔，总价3a元",
+          "prerequisites": ["有理数运算"],
+          "difficulty": 2,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["数字写在字母后面", "乘号处理错误"]
+        },
+        {
+          "id": "kp_3_2",
+          "name": "单项式",
+          "description": "由数或字母的积组成的代数式",
+          "concepts": ["系数：单项式中的数字因数", "次数：所有字母指数的和"],
+          "example": "3x²y的系数是3，次数是3",
+          "prerequisites": ["用字母表示数"],
+          "difficulty": 2,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["系数包含字母", "次数计算错误"]
+        },
+        {
+          "id": "kp_3_3",
+          "name": "多项式",
+          "description": "几个单项式的和",
+          "concepts": ["项：多项式中的每个单项式", "次数：最高次项的次数"],
+          "example": "2x²+3x-1是二次三项式",
+          "prerequisites": ["单项式"],
+          "difficulty": 2,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["项数判断错误", "次数判断错误"]
+        },
+        {
+          "id": "kp_3_4",
+          "name": "同类项",
+          "description": "所含字母相同，且相同字母的指数也相同的项",
+          "key_concept": "常数项也是同类项",
+          "example": "3x²y与-5x²y是同类项",
+          "prerequisites": ["单项式", "多项式"],
+          "difficulty": 2,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["忽略字母指数", "系数不同认为不是同类项"]
+        }
+      ]
+    },
+    {
+      "id": "unit_4",
+      "name": "整式的加减",
+      "description": "合并同类项和去括号",
+      "knowledge_points": [
+        {
+          "id": "kp_4_1",
+          "name": "合并同类项",
+          "description": "把同类项的系数相加，字母和指数不变",
+          "formula": "ax + bx = (a+b)x",
+          "example": "3x² + 2x - 5x² - x = -2x² + x",
+          "prerequisites": ["同类项"],
+          "difficulty": 3,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["系数相加错误", "漏项"]
+        },
+        {
+          "id": "kp_4_2",
+          "name": "去括号",
+          "description": "去括号的法则",
+          "rules": ["括号前是+，去掉括号和+，各项符号不变", "括号前是-，去掉括号和-，各项符号改变"],
+          "example": "a + (b - c) = a + b - c, a - (b - c) = a - b + c",
+          "prerequisites": ["合并同类项"],
+          "difficulty": 3,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["括号前是-时忘记变号", "漏项"]
+        },
+        {
+          "id": "kp_4_3",
+          "name": "整式加减",
+          "description": "整式加减的步骤",
+          "steps": ["去括号", "合并同类项"],
+          "example": "(2x + 3) - (x - 1) = 2x + 3 - x + 1 = x + 4",
+          "prerequisites": ["去括号", "合并同类项"],
+          "difficulty": 3,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["去括号错误", "合并同类项错误"]
+        }
+      ]
+    },
+    {
+      "id": "unit_5",
+      "name": "一元一次方程",
+      "description": "一元一次方程的概念、解法和应用",
+      "knowledge_points": [
+        {
+          "id": "kp_5_1",
+          "name": "一元一次方程的概念",
+          "description": "只含一个未知数，未知数的次数是1，等号两边都是整式",
+          "key_concept": "一元一次方程的标准形式：ax + b = 0 (a≠0)",
+          "example": "2x + 3 = 7 是一元一次方程",
+          "prerequisites": ["整式"],
+          "difficulty": 2,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["次数判断错误", "忽略a≠0的条件"]
+        },
+        {
+          "id": "kp_5_2",
+          "name": "等式的性质",
+          "description": "等式的基本性质",
+          "properties": ["等式两边加（或减）同一个数，结果仍相等", "等式两边乘同一个数，或除以同一个不为0的数，结果仍相等"],
+          "prerequisites": ["等式的概念"],
+          "difficulty": 2,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["除以0", "只对一边操作"]
+        },
+        {
+          "id": "kp_5_3",
+          "name": "解一元一次方程",
+          "description": "解一元一次方程的步骤",
+          "steps": ["去分母", "去括号", "移项", "合并同类项", "系数化为1"],
+          "example": "解方程 2(x-1) = 4：去括号得2x-2=4，移项得2x=6，x=3",
+          "prerequisites": ["等式的性质", "整式加减"],
+          "difficulty": 4,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["去分母漏乘", "移项忘记变号", "去括号变号错误"]
+        },
+        {
+          "id": "kp_5_4",
+          "name": "一元一次方程的应用",
+          "description": "用一元一次方程解决实际问题",
+          "steps": ["审题", "设未知数", "找等量关系", "列方程", "解方程", "检验作答"],
+          "types": ["行程问题", "工程问题", "利润问题", "年龄问题"],
+          "prerequisites": ["解一元一次方程"],
+          "difficulty": 5,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["找错等量关系", "设未知数不当", "单位不统一"]
+        }
+      ]
+    },
+    {
+      "id": "unit_6",
+      "name": "几何图形初步",
+      "description": "几何图形的基本概念",
+      "knowledge_points": [
+        {
+          "id": "kp_6_1",
+          "name": "立体图形与平面图形",
+          "description": "认识立体图形和平面图形",
+          "examples": ["立体图形：长方体、正方体、圆柱、圆锥、球", "平面图形：三角形、四边形、圆"],
+          "prerequisites": ["小学图形认识"],
+          "difficulty": 2,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["立体平面混淆", "图形名称记错"]
+        },
+        {
+          "id": "kp_6_2",
+          "name": "点、线、面、体",
+          "description": "几何图形的基本元素",
+          "relationships": ["点动成线", "线动成面", "面动成体"],
+          "prerequisites": ["立体图形与平面图形"],
+          "difficulty": 2,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["概念混淆", "关系理解错误"]
+        },
+        {
+          "id": "kp_6_3",
+          "name": "直线、射线、线段",
+          "description": "直线、射线、线段的概念和性质",
+          "comparison": ["直线：向两方无限延伸，无端点", "射线：向一方无限延伸，有一个端点", "线段：有两个端点"],
+          "formula": "两点之间，线段最短",
+          "prerequisites": ["点、线、面、体"],
+          "difficulty": 2,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["直线射线线段混淆", "延长线方向错误"]
+        },
+        {
+          "id": "kp_6_4",
+          "name": "角",
+          "description": "角的概念、表示和分类",
+          "concepts": ["角的定义：有公共端点的两条射线组成的图形", "角的单位：度、分、秒", "1°=60', 1'=60\""],
+          "types": ["锐角（<90°）", "直角（=90°）", "钝角（>90°且<180°）", "平角（=180°）", "周角（=360°）"],
+          "prerequisites": ["直线、射线、线段"],
+          "difficulty": 3,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["度分秒换算错误", "角的大小比较错误"]
+        },
+        {
+          "id": "kp_6_5",
+          "name": "角的比较与运算",
+          "description": "角的比较、和差倍分",
+          "methods": ["叠合法", "度量法"],
+          "formula": "角的平分线：从一个角的顶点出发，把这个角分成两个相等的角的射线",
+          "prerequisites": ["角"],
+          "difficulty": 3,
+          "mastery": 0,
+          "error_count": 0,
+          "last_practice": null,
+          "common_errors": ["角平分线概念错误", "角度计算错误"]
+        }
+      ]
+    }
+  ]
+}
